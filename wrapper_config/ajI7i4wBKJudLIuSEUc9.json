@@ -1,1 +1,17 @@
-{"GEREntity": "Custom", "docType": "DECLN", "fieldName": "VIN", "carrier": "GEICO-1", "pageNumber": 1, "keywords": [{"pattern": ["\\bvin(:)?\\s+(?P<VIN>\\w{17})\\b"], "direction": "STRICT_RIGHT"}], "negativeKeywords": [], "pageBoundary": {}}
+{
+    "GEREntity": "Custom",
+    "docType": "DECLN",
+    "fieldName": "VIN",
+    "carrier": "GEICO-1",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "\\bvin(:)?\\s+(?P<VIN>\\w{17})\\b"
+            ],
+            "direction": "STRICT_RIGHT"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

@@ -1,1 +1,13 @@
-{"fieldsPriority": [{"fieldName": "DEFAULT", "priorityOrder": ["HEURISTIC", "GER", "NER", "KVP"]}]}
+{
+    "fieldsPriority": [
+        {
+            "fieldName": "DEFAULT",
+            "priorityOrder": [
+                "HEURISTIC",
+                "GER",
+                "NER",
+                "KVP"
+            ]
+        }
+    ]
+}

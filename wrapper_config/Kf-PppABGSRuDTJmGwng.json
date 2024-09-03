@@ -1,1 +1,88 @@
-{"GEREntity": "Amount", "docType": "DECLN", "fieldName": "PHYSICAL_DAMAGE_COVERAGE", "carrier": "COMMON", "pageNumber": 1, "keywords": [{"pattern": ["\\bHULL\\sAND\\sEQUIPMENT(?::)?\\b"], "direction": "STRICT_RIGHT", "condition": "OR"}, {"pattern": ["\\bPHYSICAL\\s+DAMAGE\\s*(?:FOR\\s+YOUR\\s+AUTO)(?:COVERAGE\\s+\\-)?\\b"], "direction": "STRICT_RIGHT", "condition": "OR"}, {"pattern": ["\\b(ALL|OTHER)\\s+PERILS\\b"], "direction": "STRICT_RIGHT", "condition": "OR"}, {"pattern": ["\\bPERSONAL\\s+EFFECTS\\s+REPLACEMENT\\s+COST\\b"], "direction": "STRICT_RIGHT", "condition": "OR"}, {"pattern": ["\\bPERSONAL\\s+PROPERTY\\b"], "direction": "STRICT_RIGHT", "condition": "OR"}, {"pattern": ["\\b(?:PHYSICAL\\s+DAMAGE\\n)?DEDUCTIBLE(?::)?\\b"], "direction": "STRICT_RIGHT", "condition": "OR"}, {"pattern": ["\\b(?:PHYSICAL\\s+DAMAGE\\n)?DEDUCTIBLE(?::)?\\b"], "direction": "STRICT_BOTTOM", "condition": "OR"}, {"pattern": ["\\bDAMAGE\\s+TO\\s+THE\\s+PROPERTY\\s+OF\\s+OTHERS\\b"], "direction": "STRICT_RIGHT", "condition": "OR"}, {"pattern": ["\\bHULL\\s+AND\\s+MOTOR\\b"], "direction": "STRICT_RIGHT", "condition": "OR"}, {"pattern": ["\\bSTANDARD\\s+DEDUCTIBLE(?::)?\\b"], "direction": "STRICT_RIGHT", "condition": "OR"}, {"pattern": ["\\bPHYSICAL\\s+LOSS\\s+OR\\s+DAMAGE\\b"], "direction": "STRICT_RIGHT", "condition": "OR"}], "negativeKeywords": [], "pageBoundary": {}}
+{
+    "GEREntity": "Amount",
+    "docType": "DECLN",
+    "fieldName": "PHYSICAL_DAMAGE_COVERAGE",
+    "carrier": "COMMON",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "\\bHULL\\sAND\\sEQUIPMENT(?::)?\\b"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "OR"
+        },
+        {
+            "pattern": [
+                "\\bPHYSICAL\\s+DAMAGE\\s*(?:FOR\\s+YOUR\\s+AUTO)(?:COVERAGE\\s+\\-)?\\b"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "OR"
+        },
+        {
+            "pattern": [
+                "\\b(ALL|OTHER)\\s+PERILS\\b"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "OR"
+        },
+        {
+            "pattern": [
+                "\\bPERSONAL\\s+EFFECTS\\s+REPLACEMENT\\s+COST\\b"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "OR"
+        },
+        {
+            "pattern": [
+                "\\bPERSONAL\\s+PROPERTY\\b"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "OR"
+        },
+        {
+            "pattern": [
+                "\\b(?:PHYSICAL\\s+DAMAGE\\n)?DEDUCTIBLE(?::)?\\b"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "OR"
+        },
+        {
+            "pattern": [
+                "\\b(?:PHYSICAL\\s+DAMAGE\\n)?DEDUCTIBLE(?::)?\\b"
+            ],
+            "direction": "STRICT_BOTTOM",
+            "condition": "OR"
+        },
+        {
+            "pattern": [
+                "\\bDAMAGE\\s+TO\\s+THE\\s+PROPERTY\\s+OF\\s+OTHERS\\b"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "OR"
+        },
+        {
+            "pattern": [
+                "\\bHULL\\s+AND\\s+MOTOR\\b"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "OR"
+        },
+        {
+            "pattern": [
+                "\\bSTANDARD\\s+DEDUCTIBLE(?::)?\\b"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "OR"
+        },
+        {
+            "pattern": [
+                "\\bPHYSICAL\\s+LOSS\\s+OR\\s+DAMAGE\\b"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "OR"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

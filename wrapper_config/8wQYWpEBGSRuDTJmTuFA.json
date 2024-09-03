@@ -1,1 +1,37 @@
-{"GEREntity": "OrganizationName", "docType": "DECLN", "fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION", "carrier": "COMMON", "pageNumber": 1, "keywords": [{"pattern": ["lienholder"], "direction": "STRICT_LEFT", "condition": "OR"}, {"pattern": ["Other\\s+Interest", "\\blienholder\\b", "the\\s*person\\s*or", "lienholder", "finance\\s+company(/)?", "\\b(x)?lienholder(/loss\\spayee)?"], "direction": "STRICT_BOTTOM", "condition": "OR"}, {"pattern": ["LIENHOLDER(?::)?"], "direction": "STRICT_RIGHT", "condition": "OR"}], "negativeKeywords": [], "pageBoundary": {}}
+{
+    "GEREntity": "OrganizationName",
+    "docType": "DECLN",
+    "fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION",
+    "carrier": "COMMON",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "lienholder"
+            ],
+            "direction": "STRICT_LEFT",
+            "condition": "OR"
+        },
+        {
+            "pattern": [
+                "Other\\s+Interest",
+                "\\blienholder\\b",
+                "the\\s*person\\s*or",
+                "lienholder",
+                "finance\\s+company(/)?",
+                "\\b(x)?lienholder(/loss\\spayee)?"
+            ],
+            "direction": "STRICT_BOTTOM",
+            "condition": "OR"
+        },
+        {
+            "pattern": [
+                "LIENHOLDER(?::)?"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "OR"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

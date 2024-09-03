@@ -1,1 +1,22 @@
-{"docType": "DECLN", "carrier": "COMMON", "fieldName": "VEHICLE_YEAR", "pageNumber": "1", "flow": "TB", "synonymInDocument": {"dotAll": true, "ignoreCase": true, "pattern_string": "\\bYR\\b.+?|\\b(MAKE|VIN|YEAR|Vehicle)\\b.+?|\\bvehicle:\\s*Item|YEAR\\s*\\/\\s*MAKE\\s*\\/\\s*MODEL|YEAR\\s*MAKE\\/(MANUFACTURER)\\b"}, "regexAllowedChars": "(?<![0-9])(19|20)[0-9]{2}(?![0-9])", "length": "4", "minimumNumberOfLines": "1", "maximumNumberOfLines": "1", "regexLookahead": {"dotAll": true, "ignoreCase": true, "pattern_string": "\\s+Lienholder|\\s+Loss\\s*Payee|\\s+Additional|(.)*[A-Z0-9]{17}|\\s+\\w+\\s+\\d{3}\\s{1,5}\\d{3}\\s{1,5}\\d{3}"}, "lookaheadEscape": false}
+{
+    "docType": "DECLN",
+    "carrier": "COMMON",
+    "fieldName": "VEHICLE_YEAR",
+    "pageNumber": "1",
+    "flow": "TB",
+    "synonymInDocument": {
+        "dotAll": true,
+        "ignoreCase": true,
+        "pattern_string": "\\bYR\\b.+?|\\b(MAKE|VIN|YEAR|Vehicle)\\b.+?|\\bvehicle:\\s*Item|YEAR\\s*\\/\\s*MAKE\\s*\\/\\s*MODEL|YEAR\\s*MAKE\\/(MANUFACTURER)\\b"
+    },
+    "regexAllowedChars": "(?<![0-9])(19|20)[0-9]{2}(?![0-9])",
+    "length": "4",
+    "minimumNumberOfLines": "1",
+    "maximumNumberOfLines": "1",
+    "regexLookahead": {
+        "dotAll": true,
+        "ignoreCase": true,
+        "pattern_string": "\\s+Lienholder|\\s+Loss\\s*Payee|\\s+Additional|(.)*[A-Z0-9]{17}|\\s+\\w+\\s+\\d{3}\\s{1,5}\\d{3}\\s{1,5}\\d{3}"
+    },
+    "lookaheadEscape": false
+}

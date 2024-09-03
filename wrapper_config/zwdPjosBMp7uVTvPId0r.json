@@ -1,1 +1,13 @@
-{"fieldName": "INSURED_ADDRESS_STREET", "pageNumber": "1", "docType": "DECLN", "carrier": "GEICO", "match": [{"regex": "(.+)?insured", "direction": "Horizontal"}], "not_match": []}
+{
+    "fieldName": "INSURED_ADDRESS_STREET",
+    "pageNumber": "1",
+    "docType": "DECLN",
+    "carrier": "GEICO",
+    "match": [
+        {
+            "regex": "(.+)?insured",
+            "direction": "Horizontal"
+        }
+    ],
+    "not_match": []
+}

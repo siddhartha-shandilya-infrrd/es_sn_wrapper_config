@@ -1,1 +1,18 @@
-{"GEREntity": "Date", "docType": "COMMON", "fieldName": "DATE_OF_NOTICE", "carrier": "GEICO_CANCEL", "pageNumber": 1, "keywords": [{"pattern": ["\\bOne[ ]{0,}GEICO[ ]{0,}Center\\b"], "direction": "STRICT_BOTTOM", "condition": "AND"}], "negativeKeywords": [], "pageBoundary": {}}
+{
+    "GEREntity": "Date",
+    "docType": "COMMON",
+    "fieldName": "DATE_OF_NOTICE",
+    "carrier": "GEICO_CANCEL",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "\\bOne[ ]{0,}GEICO[ ]{0,}Center\\b"
+            ],
+            "direction": "STRICT_BOTTOM",
+            "condition": "AND"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

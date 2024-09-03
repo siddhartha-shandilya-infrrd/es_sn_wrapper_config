@@ -1,1 +1,7 @@
-{"docType": "DECLN", "carrier": "COMMON", "fieldName": "ALTERNATE_INSURED_NAME_LAST_NAME_COMPANY_NAME", "pageNumber": "1", "flow": "LR"}
+{
+    "docType": "DECLN",
+    "carrier": "COMMON",
+    "fieldName": "ALTERNATE_INSURED_NAME_LAST_NAME_COMPANY_NAME",
+    "pageNumber": "1",
+    "flow": "LR"
+}

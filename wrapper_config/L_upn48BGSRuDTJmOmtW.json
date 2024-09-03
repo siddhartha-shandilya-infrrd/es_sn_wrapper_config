@@ -1,1 +1,13 @@
-{"fieldName": "DATE_OF_NOTICE", "docType": "COMMON", "carrier": "STATE FARM-2", "match": [{"regex": "\\bDATE[ ]{0,}OF[ ]{0,}NOTICE(:)?\\b", "pageNumber": "1", "direction": "Horizontal"}], "not_match": []}
+{
+    "fieldName": "DATE_OF_NOTICE",
+    "docType": "COMMON",
+    "carrier": "STATE FARM-2",
+    "match": [
+        {
+            "regex": "\\bDATE[ ]{0,}OF[ ]{0,}NOTICE(:)?\\b",
+            "pageNumber": "1",
+            "direction": "Horizontal"
+        }
+    ],
+    "not_match": []
+}

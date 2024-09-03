@@ -1,1 +1,18 @@
-{"GEREntity": "PersonName", "docType": "COMMON", "fieldName": "INSURED_NAME_LAST_NAME_COMPANY_NAME", "carrier": "STATE FARM-2", "pageNumber": 1, "keywords": [{"pattern": ["\\bNAMED[ ]{0,}INSURED\\b"], "direction": "BOTTOM", "condition": "AND"}], "negativeKeywords": [], "pageBoundary": {}}
+{
+    "GEREntity": "PersonName",
+    "docType": "COMMON",
+    "fieldName": "INSURED_NAME_LAST_NAME_COMPANY_NAME",
+    "carrier": "STATE FARM-2",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "\\bNAMED[ ]{0,}INSURED\\b"
+            ],
+            "direction": "BOTTOM",
+            "condition": "AND"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

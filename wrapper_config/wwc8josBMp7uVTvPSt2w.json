@@ -1,1 +1,24 @@
-{"GEREntity": "OrganizationName", "docType": "DECLN", "fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION", "carrier": "GEICO", "pageNumber": [1, 2], "keywords": [{"pattern": ["\\b(x)?lienholder(/loss\\spayee)?"], "direction": "STRICT_BOTTOM", "condition": "AND"}], "negativeKeywords": [], "pageBoundary": {"startY": 30, "endX": 50}}
+{
+    "GEREntity": "OrganizationName",
+    "docType": "DECLN",
+    "fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION",
+    "carrier": "GEICO",
+    "pageNumber": [
+        1,
+        2
+    ],
+    "keywords": [
+        {
+            "pattern": [
+                "\\b(x)?lienholder(/loss\\spayee)?"
+            ],
+            "direction": "STRICT_BOTTOM",
+            "condition": "AND"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {
+        "startY": 30,
+        "endX": 50
+    }
+}

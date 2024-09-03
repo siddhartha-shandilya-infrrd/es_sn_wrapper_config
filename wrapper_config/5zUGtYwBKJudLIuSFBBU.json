@@ -1,1 +1,22 @@
-{"GEREntity": "Date", "docType": "DECLN", "fieldName": "EFFECTIVE_DATE", "carrier": "GEICO", "pageNumber": [1, 2, 3], "keywords": [{"pattern": ["Coverage\\s+period(:)?"], "direction": "STRICT_BOTTOM", "condition": "AND"}], "negativeKeywords": [], "pageBoundary": {}}
+{
+    "GEREntity": "Date",
+    "docType": "DECLN",
+    "fieldName": "EFFECTIVE_DATE",
+    "carrier": "GEICO",
+    "pageNumber": [
+        1,
+        2,
+        3
+    ],
+    "keywords": [
+        {
+            "pattern": [
+                "Coverage\\s+period(:)?"
+            ],
+            "direction": "STRICT_BOTTOM",
+            "condition": "AND"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

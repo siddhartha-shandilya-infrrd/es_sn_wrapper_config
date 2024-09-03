@@ -1,1 +1,33 @@
-{"fieldName": "VEHICLE_MAKE", "docType": "DECLN", "carrier": "COMMON", "match": [{"regex": "\\bVEHICLE\\b", "pageNumber": "1", "direction": "Vertical"}, {"regex": "\\bMAKE(?:\\/MANUFACTURER)?\\b", "pageNumber": "1", "direction": "Vertical"}, {"regex": "\\bVEHICLE(?::)?\\s+\\d{4}\\b", "pageNumber": "1", "direction": "Horizontal"}, {"regex": "\\bMAKE(?::)?\\b", "pageNumber": "1", "direction": "Horizontal"}, {"regex": "\\bMANUFACTURER\\b", "pageNumber": "1", "direction": "Vertical"}], "not_match": []}
+{
+    "fieldName": "VEHICLE_MAKE",
+    "docType": "DECLN",
+    "carrier": "COMMON",
+    "match": [
+        {
+            "regex": "\\bVEHICLE\\b",
+            "pageNumber": "1",
+            "direction": "Vertical"
+        },
+        {
+            "regex": "\\bMAKE(?:\\/MANUFACTURER)?\\b",
+            "pageNumber": "1",
+            "direction": "Vertical"
+        },
+        {
+            "regex": "\\bVEHICLE(?::)?\\s+\\d{4}\\b",
+            "pageNumber": "1",
+            "direction": "Horizontal"
+        },
+        {
+            "regex": "\\bMAKE(?::)?\\b",
+            "pageNumber": "1",
+            "direction": "Horizontal"
+        },
+        {
+            "regex": "\\bMANUFACTURER\\b",
+            "pageNumber": "1",
+            "direction": "Vertical"
+        }
+    ],
+    "not_match": []
+}

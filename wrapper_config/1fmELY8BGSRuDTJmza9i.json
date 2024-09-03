@@ -1,1 +1,5 @@
-{"docType": "COMMON", "carrier": "GEICO_CANCEL", "fieldName": "INSURED_NAME_FIRST_NAME"}
+{
+    "docType": "COMMON",
+    "carrier": "GEICO_CANCEL",
+    "fieldName": "INSURED_NAME_FIRST_NAME"
+}

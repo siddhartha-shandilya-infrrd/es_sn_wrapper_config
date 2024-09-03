@@ -1,1 +1,24 @@
-{"GEREntity": "Date", "docType": "DECLN", "fieldName": "DATE_OF_NOTICE", "carrier": "PROGRESSIVE-3", "pageNumber": [1, 2, 3], "keywords": [{"pattern": ["vehicle\\s+lookup"], "direction": "TOP", "condition": "AND"}], "negativeKeywords": [], "pageBoundary": {"endY": 5}}
+{
+    "GEREntity": "Date",
+    "docType": "DECLN",
+    "fieldName": "DATE_OF_NOTICE",
+    "carrier": "PROGRESSIVE-3",
+    "pageNumber": [
+        1,
+        2,
+        3
+    ],
+    "keywords": [
+        {
+            "pattern": [
+                "vehicle\\s+lookup"
+            ],
+            "direction": "TOP",
+            "condition": "AND"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {
+        "endY": 5
+    }
+}

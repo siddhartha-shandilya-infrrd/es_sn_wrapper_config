@@ -1,1 +1,19 @@
-{"GEREntity": "Year", "docType": "COMMON", "fieldName": "VEHICLE_YEAR", "carrier": "GEICO_CANCEL", "pageNumber": 1, "keywords": [{"pattern": ["VEHICLE[ ]{0,}YEAR"], "direction": "BOTTOM", "condition": "AND", "proximity_threshold": 0.1}], "negativeKeywords": [], "pageBoundary": {}}
+{
+    "GEREntity": "Year",
+    "docType": "COMMON",
+    "fieldName": "VEHICLE_YEAR",
+    "carrier": "GEICO_CANCEL",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "VEHICLE[ ]{0,}YEAR"
+            ],
+            "direction": "BOTTOM",
+            "condition": "AND",
+            "proximity_threshold": 0.1
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

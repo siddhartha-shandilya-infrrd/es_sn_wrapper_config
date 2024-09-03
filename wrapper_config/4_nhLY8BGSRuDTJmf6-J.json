@@ -1,1 +1,18 @@
-{"fieldName": "VEHICLE_MAKE", "docType": "COMMON", "carrier": "GEICO_CANCEL", "match": [{"regex": "\\bvehicle[ ]{0,}year[ ]{0,}(,)?[ ]{0,}make[ ]{0,}(,)?[ ]{0,}and\\b", "pageNumber": "1", "direction": "Vertical"}, {"regex": "\\bidentification[ ]{0,}number\\b", "pageNumber": "1", "direction": "Vertical"}], "not_match": []}
+{
+    "fieldName": "VEHICLE_MAKE",
+    "docType": "COMMON",
+    "carrier": "GEICO_CANCEL",
+    "match": [
+        {
+            "regex": "\\bvehicle[ ]{0,}year[ ]{0,}(,)?[ ]{0,}make[ ]{0,}(,)?[ ]{0,}and\\b",
+            "pageNumber": "1",
+            "direction": "Vertical"
+        },
+        {
+            "regex": "\\bidentification[ ]{0,}number\\b",
+            "pageNumber": "1",
+            "direction": "Vertical"
+        }
+    ],
+    "not_match": []
+}

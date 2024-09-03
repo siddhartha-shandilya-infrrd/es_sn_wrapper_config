@@ -1,1 +1,27 @@
-{"GEREntity": "Date", "docType": "COMMON", "fieldName": "DATE_OF_NOTICE", "carrier": "FIRST_ACCEPTANCE", "pageNumber": 1, "keywords": [{"pattern": ["Processed[ ]{0,}Date"], "direction": "BOTTOM", "condition": "OR", "proximity_threshold": 0.1}, {"pattern": ["DATE[ ]{0,}OF[ ]{0,}NOTICE"], "direction": "STRICT_RIGHT", "condition": "OR", "proximity_threshold": 0.06}], "negativeKeywords": [], "pageBoundary": {}}
+{
+    "GEREntity": "Date",
+    "docType": "COMMON",
+    "fieldName": "DATE_OF_NOTICE",
+    "carrier": "FIRST_ACCEPTANCE",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "Processed[ ]{0,}Date"
+            ],
+            "direction": "BOTTOM",
+            "condition": "OR",
+            "proximity_threshold": 0.1
+        },
+        {
+            "pattern": [
+                "DATE[ ]{0,}OF[ ]{0,}NOTICE"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "OR",
+            "proximity_threshold": 0.06
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

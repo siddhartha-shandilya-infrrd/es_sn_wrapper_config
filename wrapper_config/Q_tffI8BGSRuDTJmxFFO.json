@@ -1,1 +1,18 @@
-{"fieldName": "CANCELLATION_DATE", "docType": "COMMON", "carrier": "GEICO_CANCEL", "match": [{"regex": "\\bTERM\\b", "pageNumber": "1", "direction": "Vertical"}, {"regex": "\\bTERMINATION\\b", "pageNumber": "1", "direction": "Vertical"}], "not_match": []}
+{
+    "fieldName": "CANCELLATION_DATE",
+    "docType": "COMMON",
+    "carrier": "GEICO_CANCEL",
+    "match": [
+        {
+            "regex": "\\bTERM\\b",
+            "pageNumber": "1",
+            "direction": "Vertical"
+        },
+        {
+            "regex": "\\bTERMINATION\\b",
+            "pageNumber": "1",
+            "direction": "Vertical"
+        }
+    ],
+    "not_match": []
+}

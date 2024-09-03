@@ -1,1 +1,13 @@
-{"fieldName": "POLICY_NUMBER", "docType": "DECLN", "carrier": "PROGRESSIVE", "match": [{"regex": "(.+)?policy\\s*number", "pageNumber": "1", "direction": "Horizontal"}], "not_match": []}
+{
+    "fieldName": "POLICY_NUMBER",
+    "docType": "DECLN",
+    "carrier": "PROGRESSIVE",
+    "match": [
+        {
+            "regex": "(.+)?policy\\s*number",
+            "pageNumber": "1",
+            "direction": "Horizontal"
+        }
+    ],
+    "not_match": []
+}

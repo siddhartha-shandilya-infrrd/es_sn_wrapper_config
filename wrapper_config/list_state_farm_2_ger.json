@@ -1,1 +1,51 @@
-{"docType": "COMMON", "carrier": "STATE FARM-2", "extractorType": "GER", "docFields": [{"fieldId": "Iftln48BGSRuDTJmQWva", "fieldName": "ALTERNATE_INSURED_NAME_FIRST_NAME"}, {"fieldId": "Ivtnn48BGSRuDTJm32u2", "fieldName": "ALTERNATE_INSURED_NAME_LAST_NAME_COMPANY_NAME"}, {"fieldId": "I_tpn48BGSRuDTJmsGvg", "fieldName": "COLLISION_COVERAGE"}, {"fieldId": "Jfttn48BGSRuDTJmrGt9", "fieldName": "COMPREHENSIVE_COVERAGE"}, {"fieldId": "Jvtun48BGSRuDTJmwGvD", "fieldName": "DATE_OF_NOTICE"}, {"fieldId": "J_tvn48BGSRuDTJmq2uD", "fieldName": "EFFECTIVE_DATE"}, {"fieldId": "KPtyn48BGSRuDTJm_2vM", "fieldName": "INSURED_NAME_FIRST_NAME"}, {"fieldId": "Kft0n48BGSRuDTJmJmvS", "fieldName": "INSURED_NAME_LAST_NAME_COMPANY_NAME"}, {"fieldId": "Kvt1n48BGSRuDTJmBmuW", "fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION"}, {"fieldId": "K_t2n48BGSRuDTJm_Gv7", "fieldName": "VEHICLE_YEAR"}, {"fieldId": "fPuRxI8BGSRuDTJm7-dU", "fieldName": "CANCELLATION_DATE"}]}
+{
+    "docType": "COMMON",
+    "carrier": "STATE FARM-2",
+    "extractorType": "GER",
+    "docFields": [
+        {
+            "fieldId": "Iftln48BGSRuDTJmQWva",
+            "fieldName": "ALTERNATE_INSURED_NAME_FIRST_NAME"
+        },
+        {
+            "fieldId": "Ivtnn48BGSRuDTJm32u2",
+            "fieldName": "ALTERNATE_INSURED_NAME_LAST_NAME_COMPANY_NAME"
+        },
+        {
+            "fieldId": "I_tpn48BGSRuDTJmsGvg",
+            "fieldName": "COLLISION_COVERAGE"
+        },
+        {
+            "fieldId": "Jfttn48BGSRuDTJmrGt9",
+            "fieldName": "COMPREHENSIVE_COVERAGE"
+        },
+        {
+            "fieldId": "Jvtun48BGSRuDTJmwGvD",
+            "fieldName": "DATE_OF_NOTICE"
+        },
+        {
+            "fieldId": "J_tvn48BGSRuDTJmq2uD",
+            "fieldName": "EFFECTIVE_DATE"
+        },
+        {
+            "fieldId": "KPtyn48BGSRuDTJm_2vM",
+            "fieldName": "INSURED_NAME_FIRST_NAME"
+        },
+        {
+            "fieldId": "Kft0n48BGSRuDTJmJmvS",
+            "fieldName": "INSURED_NAME_LAST_NAME_COMPANY_NAME"
+        },
+        {
+            "fieldId": "Kvt1n48BGSRuDTJmBmuW",
+            "fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION"
+        },
+        {
+            "fieldId": "K_t2n48BGSRuDTJm_Gv7",
+            "fieldName": "VEHICLE_YEAR"
+        },
+        {
+            "fieldId": "fPuRxI8BGSRuDTJm7-dU",
+            "fieldName": "CANCELLATION_DATE"
+        }
+    ]
+}

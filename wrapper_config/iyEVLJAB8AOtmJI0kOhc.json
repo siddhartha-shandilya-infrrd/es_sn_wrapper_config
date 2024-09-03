@@ -1,1 +1,5 @@
-{"docType": "COMMON", "carrier": "STATE FARM-2", "fieldName": "REASON_FOR_CHANGE"}
+{
+    "docType": "COMMON",
+    "carrier": "STATE FARM-2",
+    "fieldName": "REASON_FOR_CHANGE"
+}

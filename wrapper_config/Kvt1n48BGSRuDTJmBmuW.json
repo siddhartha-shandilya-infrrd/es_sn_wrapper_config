@@ -1,1 +1,19 @@
-{"GEREntity": "OrganizationName", "docType": "COMMON", "fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION", "carrier": "STATE FARM-2", "pageNumber": 1, "keywords": [{"pattern": ["DATE[ ]{0,}OF[ ]{0,}NOTICE"], "proximity_threshold": 0.4, "direction": "BOTTOM_LEFT", "condition": "AND"}], "negativeKeywords": [], "pageBoundary": {}}
+{
+    "GEREntity": "OrganizationName",
+    "docType": "COMMON",
+    "fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION",
+    "carrier": "STATE FARM-2",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "DATE[ ]{0,}OF[ ]{0,}NOTICE"
+            ],
+            "proximity_threshold": 0.4,
+            "direction": "BOTTOM_LEFT",
+            "condition": "AND"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

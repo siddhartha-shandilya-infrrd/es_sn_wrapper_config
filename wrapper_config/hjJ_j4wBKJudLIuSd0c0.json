@@ -1,1 +1,31 @@
-{"GEREntity": "Address", "docType": "DECLN", "fieldName": "INSURED_ADDRESS_STREET", "carrier": "GEICO", "pageNumber": [1, 2, 3], "keywords": [{"pattern": ["email\\s+address"], "direction": "STRICT_TOP", "condition": "OR", "proximity_threshold": 0.4}, {"pattern": ["date\\s+issued"], "direction": "STRICT_BOTTOM", "condition": "OR", "proximity_threshold": 0.4}], "negativeKeywords": [], "pageBoundary": {}}
+{
+    "GEREntity": "Address",
+    "docType": "DECLN",
+    "fieldName": "INSURED_ADDRESS_STREET",
+    "carrier": "GEICO",
+    "pageNumber": [
+        1,
+        2,
+        3
+    ],
+    "keywords": [
+        {
+            "pattern": [
+                "email\\s+address"
+            ],
+            "direction": "STRICT_TOP",
+            "condition": "OR",
+            "proximity_threshold": 0.4
+        },
+        {
+            "pattern": [
+                "date\\s+issued"
+            ],
+            "direction": "STRICT_BOTTOM",
+            "condition": "OR",
+            "proximity_threshold": 0.4
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

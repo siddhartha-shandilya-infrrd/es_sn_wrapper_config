@@ -1,1 +1,5 @@
-{"docType": "COMMON", "carrier": "GEICO_CANCEL", "fieldName": "VIN"}
+{
+    "docType": "COMMON",
+    "carrier": "GEICO_CANCEL",
+    "fieldName": "VIN"
+}

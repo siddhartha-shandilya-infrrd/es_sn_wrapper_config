@@ -1,1 +1,5 @@
-{"docType": "COMMON", "carrier": "GEICO_CANCEL", "fieldName": "INSURED_ADDRESS_ZIP_CODE"}
+{
+    "docType": "COMMON",
+    "carrier": "GEICO_CANCEL",
+    "fieldName": "INSURED_ADDRESS_ZIP_CODE"
+}

@@ -1,1 +1,18 @@
-{"GEREntity": "Amount", "docType": "DECLN", "fieldName": "COMPREHENSIVE_COVERAGE", "carrier": "PROGRESSIVE", "pageNumber": 2, "keywords": [{"pattern": ["comprehensive"], "direction": "STRICT_RIGHT", "condition": "OR"}], "negativeKeywords": [], "pageBoundary": {}}
+{
+    "GEREntity": "Amount",
+    "docType": "DECLN",
+    "fieldName": "COMPREHENSIVE_COVERAGE",
+    "carrier": "PROGRESSIVE",
+    "pageNumber": 2,
+    "keywords": [
+        {
+            "pattern": [
+                "comprehensive"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "OR"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

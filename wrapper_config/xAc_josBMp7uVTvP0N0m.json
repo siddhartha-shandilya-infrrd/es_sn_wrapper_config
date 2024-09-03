@@ -1,1 +1,18 @@
-{"GEREntity": "Amount", "docType": "DECLN", "fieldName": "COMPREHENSIVE_COVERAGE", "carrier": "GEICO", "pageNumber": 1, "keywords": [{"pattern": ["comprehensive\\s*deductible"], "direction": "STRICT_RIGHT", "condition": "AND"}], "negativeKeywords": [], "pageBoundary": {}}
+{
+    "GEREntity": "Amount",
+    "docType": "DECLN",
+    "fieldName": "COMPREHENSIVE_COVERAGE",
+    "carrier": "GEICO",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "comprehensive\\s*deductible"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "AND"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

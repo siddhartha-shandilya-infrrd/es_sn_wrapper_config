@@ -1,1 +1,13 @@
-{"fieldName": "DATE_OF_NOTICE", "pageNumber": "1", "docType": "DECLN", "carrier": "GEICO", "match": [{"regex": "(.+)?date\\s*issued", "direction": "Horizontal"}], "not_match": []}
+{
+    "fieldName": "DATE_OF_NOTICE",
+    "pageNumber": "1",
+    "docType": "DECLN",
+    "carrier": "GEICO",
+    "match": [
+        {
+            "regex": "(.+)?date\\s*issued",
+            "direction": "Horizontal"
+        }
+    ],
+    "not_match": []
+}

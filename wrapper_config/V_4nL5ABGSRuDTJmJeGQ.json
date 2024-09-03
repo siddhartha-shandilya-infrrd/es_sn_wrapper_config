@@ -1,1 +1,11 @@
-{"docType": "COMMON", "carrier": "FIRST_ACCEPTANCE", "fieldName": "VEHICLE_MAKE", "pageNumber": "1", "flow": "LR", "default_config": {"default_value": "", "default_confidence": 0.95}}
+{
+    "docType": "COMMON",
+    "carrier": "FIRST_ACCEPTANCE",
+    "fieldName": "VEHICLE_MAKE",
+    "pageNumber": "1",
+    "flow": "LR",
+    "default_config": {
+        "default_value": "",
+        "default_confidence": 0.95
+    }
+}

@@ -1,1 +1,17 @@
-{"fieldName": "VIN", "pageNumber": "1", "docType": "DECLN", "carrier": "ERIE", "match": [{"regex": "(.+)?vehicle", "direction": "Vertical"}, {"regex": "(.+)?policy\\s*period", "direction": "Vertical"}], "not_match": []}
+{
+    "fieldName": "VIN",
+    "pageNumber": "1",
+    "docType": "DECLN",
+    "carrier": "ERIE",
+    "match": [
+        {
+            "regex": "(.+)?vehicle",
+            "direction": "Vertical"
+        },
+        {
+            "regex": "(.+)?policy\\s*period",
+            "direction": "Vertical"
+        }
+    ],
+    "not_match": []
+}

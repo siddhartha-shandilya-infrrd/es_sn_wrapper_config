@@ -1,1 +1,55 @@
-{"docType": "COMMON", "carrier": "STATE FARM-2", "extractorType": "KVP", "docFields": [{"fieldId": "LPuin48BGSRuDTJm6WvZ", "fieldName": "ALTERNATE_INSURED_NAME_LAST_NAME_COMPANY_NAME"}, {"fieldId": "Lfuln48BGSRuDTJmRWuj", "fieldName": "COMPREHENSIVE_COVERAGE"}, {"fieldId": "Lvuon48BGSRuDTJmL2vr", "fieldName": "COLLISION_COVERAGE"}, {"fieldId": "L_upn48BGSRuDTJmOmtW", "fieldName": "DATE_OF_NOTICE"}, {"fieldId": "MPupn48BGSRuDTJm1WsL", "fieldName": "EFFECTIVE_DATE"}, {"fieldId": "Mfuqn48BGSRuDTJmdWux", "fieldName": "INSURED_NAME_FIRST_NAME"}, {"fieldId": "Mvurn48BGSRuDTJmLGvm", "fieldName": "INSURED_NAME_LAST_NAME_COMPANY_NAME"}, {"fieldId": "M_urn48BGSRuDTJm5Wva", "fieldName": "POLICY_NUMBER"}, {"fieldId": "NPusn48BGSRuDTJmnmsP", "fieldName": "VEHICLE_MAKE"}, {"fieldId": "Nfutn48BGSRuDTJmS2vJ", "fieldName": "VEHICLE_YEAR"}, {"fieldId": "Nvuun48BGSRuDTJmHmv6", "fieldName": "VIN"}, {"fieldId": "e_uCxI8BGSRuDTJmxOfD", "fieldName": "CANCELLATION_DATE"}]}
+{
+    "docType": "COMMON",
+    "carrier": "STATE FARM-2",
+    "extractorType": "KVP",
+    "docFields": [
+        {
+            "fieldId": "LPuin48BGSRuDTJm6WvZ",
+            "fieldName": "ALTERNATE_INSURED_NAME_LAST_NAME_COMPANY_NAME"
+        },
+        {
+            "fieldId": "Lfuln48BGSRuDTJmRWuj",
+            "fieldName": "COMPREHENSIVE_COVERAGE"
+        },
+        {
+            "fieldId": "Lvuon48BGSRuDTJmL2vr",
+            "fieldName": "COLLISION_COVERAGE"
+        },
+        {
+            "fieldId": "L_upn48BGSRuDTJmOmtW",
+            "fieldName": "DATE_OF_NOTICE"
+        },
+        {
+            "fieldId": "MPupn48BGSRuDTJm1WsL",
+            "fieldName": "EFFECTIVE_DATE"
+        },
+        {
+            "fieldId": "Mfuqn48BGSRuDTJmdWux",
+            "fieldName": "INSURED_NAME_FIRST_NAME"
+        },
+        {
+            "fieldId": "Mvurn48BGSRuDTJmLGvm",
+            "fieldName": "INSURED_NAME_LAST_NAME_COMPANY_NAME"
+        },
+        {
+            "fieldId": "M_urn48BGSRuDTJm5Wva",
+            "fieldName": "POLICY_NUMBER"
+        },
+        {
+            "fieldId": "NPusn48BGSRuDTJmnmsP",
+            "fieldName": "VEHICLE_MAKE"
+        },
+        {
+            "fieldId": "Nfutn48BGSRuDTJmS2vJ",
+            "fieldName": "VEHICLE_YEAR"
+        },
+        {
+            "fieldId": "Nvuun48BGSRuDTJmHmv6",
+            "fieldName": "VIN"
+        },
+        {
+            "fieldId": "e_uCxI8BGSRuDTJmxOfD",
+            "fieldName": "CANCELLATION_DATE"
+        }
+    ]
+}

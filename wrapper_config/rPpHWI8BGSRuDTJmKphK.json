@@ -1,1 +1,18 @@
-{"GEREntity": "OrganizationName", "docType": "COMMON", "fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION", "carrier": "FIRST_ACCEPTANCE", "pageNumber": 1, "keywords": [{"pattern": ["bond[ ]{0,}((\\()?[ ]{0,}(s)?[ ]{0,}(\\))?)?[ ]{0,}for[ ]{0,}the[ ]{0,}following[ ]{0,}person"], "direction": "STRICT_TOP", "condition": "AND"}], "negativeKeywords": [], "pageBoundary": {}}
+{
+    "GEREntity": "OrganizationName",
+    "docType": "COMMON",
+    "fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION",
+    "carrier": "FIRST_ACCEPTANCE",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "bond[ ]{0,}((\\()?[ ]{0,}(s)?[ ]{0,}(\\))?)?[ ]{0,}for[ ]{0,}the[ ]{0,}following[ ]{0,}person"
+            ],
+            "direction": "STRICT_TOP",
+            "condition": "AND"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

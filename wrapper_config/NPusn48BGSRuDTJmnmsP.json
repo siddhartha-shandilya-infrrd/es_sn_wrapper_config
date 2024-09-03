@@ -1,1 +1,13 @@
-{"fieldName": "VEHICLE_MAKE", "docType": "COMMON", "carrier": "STATE FARM-2", "match": [{"regex": "\\bMAKE(:)?\\b", "pageNumber": "1", "direction": "Horizontal"}], "not_match": []}
+{
+    "fieldName": "VEHICLE_MAKE",
+    "docType": "COMMON",
+    "carrier": "STATE FARM-2",
+    "match": [
+        {
+            "regex": "\\bMAKE(:)?\\b",
+            "pageNumber": "1",
+            "direction": "Horizontal"
+        }
+    ],
+    "not_match": []
+}

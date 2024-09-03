@@ -1,1 +1,7 @@
-{"docType": "DECLN", "carrier": "PROGRESSIVE", "fieldName": "DATE_OF_NOTICE", "pageNumber": "1", "groupId": "decln-progressive-page1-policy-info-top-right"}
+{
+    "docType": "DECLN",
+    "carrier": "PROGRESSIVE",
+    "fieldName": "DATE_OF_NOTICE",
+    "pageNumber": "1",
+    "groupId": "decln-progressive-page1-policy-info-top-right"
+}

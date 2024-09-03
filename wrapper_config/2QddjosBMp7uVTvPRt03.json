@@ -1,1 +1,17 @@
-{"fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION", "pageNumber": "1", "docType": "DECLN", "carrier": "GEICO", "match": [{"regex": "(.+)?finance\\s*company", "direction": "Horizontal"}, {"regex": "(.+)?lienholder", "direction": "Horizontal"}], "not_match": []}
+{
+    "fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION",
+    "pageNumber": "1",
+    "docType": "DECLN",
+    "carrier": "GEICO",
+    "match": [
+        {
+            "regex": "(.+)?finance\\s*company",
+            "direction": "Horizontal"
+        },
+        {
+            "regex": "(.+)?lienholder",
+            "direction": "Horizontal"
+        }
+    ],
+    "not_match": []
+}

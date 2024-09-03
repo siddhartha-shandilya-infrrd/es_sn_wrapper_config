@@ -1,1 +1,18 @@
-{"GEREntity": "Address", "docType": "DECLN", "fieldName": "LIENHOLDER_ADDRESS_STREET", "carrier": "PROGRESSIVE", "pageNumber": 1, "keywords": [{"pattern": ["lienholder[:]?"], "direction": "RIGHT", "condition": "OR"}], "negativeKeywords": [], "pageBoundary": {}}
+{
+    "GEREntity": "Address",
+    "docType": "DECLN",
+    "fieldName": "LIENHOLDER_ADDRESS_STREET",
+    "carrier": "PROGRESSIVE",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "lienholder[:]?"
+            ],
+            "direction": "RIGHT",
+            "condition": "OR"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

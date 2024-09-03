@@ -1,1 +1,5 @@
-{"docType": "COMMON", "carrier": "GEICO_CANCEL", "fieldName": "REASON_FOR_CHANGE"}
+{
+    "docType": "COMMON",
+    "carrier": "GEICO_CANCEL",
+    "fieldName": "REASON_FOR_CHANGE"
+}

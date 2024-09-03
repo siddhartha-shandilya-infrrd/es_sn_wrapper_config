@@ -1,1 +1,19 @@
-{"GEREntity": "Address", "docType": "DECLN", "fieldName": "INSURED_ADDRESS_ZIP_CODE", "carrier": "GEICO", "pageNumber": 1, "keywords": [{"pattern": ["Policy\\s*Number"], "direction": "STRICT_TOP", "condition": "AND", "proximity_threshold": 0.2}], "negativeKeywords": [], "pageBoundary": {}}
+{
+    "GEREntity": "Address",
+    "docType": "DECLN",
+    "fieldName": "INSURED_ADDRESS_ZIP_CODE",
+    "carrier": "GEICO",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "Policy\\s*Number"
+            ],
+            "direction": "STRICT_TOP",
+            "condition": "AND",
+            "proximity_threshold": 0.2
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

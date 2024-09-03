@@ -1,1 +1,18 @@
-{"GEREntity": "PersonName", "docType": "DECLN", "fieldName": "EXCLUDED_DRIVERS_NAME_FIRST_NAME", "carrier": "COMMON", "pageNumber": 1, "keywords": [{"pattern": ["\\bEXCLUDED\\b"], "direction": "STRICT_LEFT", "condition": "AND"}], "negativeKeywords": [], "pageBoundary": {}}
+{
+    "GEREntity": "PersonName",
+    "docType": "DECLN",
+    "fieldName": "EXCLUDED_DRIVERS_NAME_FIRST_NAME",
+    "carrier": "COMMON",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "\\bEXCLUDED\\b"
+            ],
+            "direction": "STRICT_LEFT",
+            "condition": "AND"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

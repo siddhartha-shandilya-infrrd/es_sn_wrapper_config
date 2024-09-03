@@ -1,1 +1,25 @@
-{"GEREntity": "Date", "docType": "DECLN", "fieldName": "EFFECTIVE_DATE", "carrier": "ERIE", "pageNumber": 1, "keywords": [{"pattern": ["[tl]o"], "direction": "STRICT_LEFT", "condition": "AND"}, {"pattern": ["Policy\\s*Period"], "direction": "STRICT_BOTTOM", "condition": "AND"}], "negativeKeywords": [], "pageBoundary": {}}
+{
+    "GEREntity": "Date",
+    "docType": "DECLN",
+    "fieldName": "EFFECTIVE_DATE",
+    "carrier": "ERIE",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "[tl]o"
+            ],
+            "direction": "STRICT_LEFT",
+            "condition": "AND"
+        },
+        {
+            "pattern": [
+                "Policy\\s*Period"
+            ],
+            "direction": "STRICT_BOTTOM",
+            "condition": "AND"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

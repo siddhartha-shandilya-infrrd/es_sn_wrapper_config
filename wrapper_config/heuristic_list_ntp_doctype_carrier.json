@@ -1,1 +1,5 @@
-{"COMMON/GEICO_CANCEL": "list_geico_cancel_heuristics", "COMMON/FIRST_ACCEPTANCE": "list_first_acceptance_heuristics", "COMMON/STATE FARM-2": "list_state_farm_2_heuristics"}
+{
+    "COMMON/GEICO_CANCEL": "list_geico_cancel_heuristics",
+    "COMMON/FIRST_ACCEPTANCE": "list_first_acceptance_heuristics",
+    "COMMON/STATE FARM-2": "list_state_farm_2_heuristics"
+}

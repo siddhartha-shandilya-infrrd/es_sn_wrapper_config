@@ -1,1 +1,32 @@
-{"docType": "DECLN", "carrier": "ALLSTATE", "fieldName": "POLICY_NUMBER", "pageNumber": "1", "flow": "TB", "synonymInDocument": {"dotAll": false, "ignoreCase": false, "pattern_string": "Policy\\s*number"}, "regexAllowedChars": "[0-9A-Z ]", "length": "variable", "minimumNumberOfLines": "1", "maximumNumberOfLines": "1", "regexLookbehind": {"dotAll": false, "ignoreCase": false, "pattern_string": {"dotAll": false, "ignoreCase": false, "pattern_string": "\\n"}}, "regexLookahead": {"dotAll": false, "ignoreCase": false, "pattern_string": "\\n|\\b"}, "lookaheadEscape": false, "groupId": "decln-allstate-page1-top-right"}
+{
+    "docType": "DECLN",
+    "carrier": "ALLSTATE",
+    "fieldName": "POLICY_NUMBER",
+    "pageNumber": "1",
+    "flow": "TB",
+    "synonymInDocument": {
+        "dotAll": false,
+        "ignoreCase": false,
+        "pattern_string": "Policy\\s*number"
+    },
+    "regexAllowedChars": "[0-9A-Z ]",
+    "length": "variable",
+    "minimumNumberOfLines": "1",
+    "maximumNumberOfLines": "1",
+    "regexLookbehind": {
+        "dotAll": false,
+        "ignoreCase": false,
+        "pattern_string": {
+            "dotAll": false,
+            "ignoreCase": false,
+            "pattern_string": "\\n"
+        }
+    },
+    "regexLookahead": {
+        "dotAll": false,
+        "ignoreCase": false,
+        "pattern_string": "\\n|\\b"
+    },
+    "lookaheadEscape": false,
+    "groupId": "decln-allstate-page1-top-right"
+}

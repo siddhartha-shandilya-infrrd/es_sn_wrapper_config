@@ -1,1 +1,7 @@
-{"docType": "DECLN", "carrier": "PROGRESSIVE", "fieldName": "INSURED_ADDRESS_STREET", "pageNumber": "1", "finalConfidence": 0.9}
+{
+    "docType": "DECLN",
+    "carrier": "PROGRESSIVE",
+    "fieldName": "INSURED_ADDRESS_STREET",
+    "pageNumber": "1",
+    "finalConfidence": 0.9
+}

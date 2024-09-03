@@ -1,1 +1,7 @@
-{"docType": "COMMON", "carrier": "FIRST_ACCEPTANCE", "fieldName": "INSURED_NAME_LAST_NAME_COMPANY_NAME", "pageNumber": "1", "groupId": "list-first-acceptance-insured-info"}
+{
+    "docType": "COMMON",
+    "carrier": "FIRST_ACCEPTANCE",
+    "fieldName": "INSURED_NAME_LAST_NAME_COMPANY_NAME",
+    "pageNumber": "1",
+    "groupId": "list-first-acceptance-insured-info"
+}

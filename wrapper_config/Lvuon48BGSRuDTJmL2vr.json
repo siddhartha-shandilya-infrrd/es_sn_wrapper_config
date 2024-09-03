@@ -1,1 +1,13 @@
-{"fieldName": "COLLISION_COVERAGE", "docType": "COMMON", "carrier": "STATE FARM-2", "match": [{"regex": "\\bCOVERAGE(:)?\\b", "pageNumber": "1", "direction": "Horizontal"}], "not_match": []}
+{
+    "fieldName": "COLLISION_COVERAGE",
+    "docType": "COMMON",
+    "carrier": "STATE FARM-2",
+    "match": [
+        {
+            "regex": "\\bCOVERAGE(:)?\\b",
+            "pageNumber": "1",
+            "direction": "Horizontal"
+        }
+    ],
+    "not_match": []
+}

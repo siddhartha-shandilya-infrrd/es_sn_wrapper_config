@@ -1,1 +1,7 @@
-{"docType": "COMMON", "carrier": "FIRST_ACCEPTANCE", "fieldName": "CANCELLATION_DATE", "pageNumber": "1", "flow": "LR"}
+{
+    "docType": "COMMON",
+    "carrier": "FIRST_ACCEPTANCE",
+    "fieldName": "CANCELLATION_DATE",
+    "pageNumber": "1",
+    "flow": "LR"
+}

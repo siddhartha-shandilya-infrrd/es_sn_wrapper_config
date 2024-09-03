@@ -1,1 +1,25 @@
-{"GEREntity": "Date", "docType": "DECLN", "fieldName": "EXPIRATION_DATE", "carrier": "PROGRESSIVE", "pageNumber": 1, "keywords": [{"pattern": ["policy\\speriod"], "direction": "STRICT_RIGHT", "condition": "OR"}, {"pattern": ["ends\\son"], "direction": "STRICT_RIGHT", "condition": "OR"}], "negativeKeywords": [], "pageBoundary": {}}
+{
+    "GEREntity": "Date",
+    "docType": "DECLN",
+    "fieldName": "EXPIRATION_DATE",
+    "carrier": "PROGRESSIVE",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "policy\\speriod"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "OR"
+        },
+        {
+            "pattern": [
+                "ends\\son"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "OR"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

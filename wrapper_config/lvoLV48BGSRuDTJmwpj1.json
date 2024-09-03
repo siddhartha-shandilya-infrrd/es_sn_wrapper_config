@@ -1,1 +1,103 @@
-{"fieldsPriority": [{"fieldName": "POLICY_NUMBER", "priorityOrder": ["HEURISTIC", "GER", "NER", "KVP"]}, {"fieldName": "DATE_OF_NOTICE", "priorityOrder": ["HEURISTIC", "GER", "NER", "KVP"]}, {"fieldName": "INSURED_NAME_FIRST_NAME", "priorityOrder": ["HEURISTIC", "GER", "NER", "KVP"]}, {"fieldName": "INSURED_NAME_LAST_NAME_COMPANY_NAME", "priorityOrder": ["HEURISTIC", "GER", "NER", "KVP"]}, {"fieldName": "ALTERNATE_INSURED_NAME_FIRST_NAME", "priorityOrder": ["HEURISTIC", "GER", "NER", "KVP"]}, {"fieldName": "ALTERNATE_INSURED_NAME_LAST_NAME_COMPANY_NAME", "priorityOrder": ["HEURISTIC", "GER", "NER", "KVP"]}, {"fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION", "priorityOrder": ["HEURISTIC", "GER", "NER", "KVP"]}, {"fieldName": "REASON_FOR_CHANGE", "priorityOrder": ["HEURISTIC", "GER", "NER", "KVP"]}, {"fieldName": "INSURED_ADDRESS_STREET", "priorityOrder": ["HEURISTIC", "GER", "NER", "KVP"]}, {"fieldName": "INSURED_ADDRESS_ZIP_CODE", "priorityOrder": ["HEURISTIC", "GER", "NER", "KVP"]}, {"fieldName": "DEFAULT", "priorityOrder": ["HEURISTIC", "GER", "KVP", "NER"]}]}
+{
+    "fieldsPriority": [
+        {
+            "fieldName": "POLICY_NUMBER",
+            "priorityOrder": [
+                "HEURISTIC",
+                "GER",
+                "NER",
+                "KVP"
+            ]
+        },
+        {
+            "fieldName": "DATE_OF_NOTICE",
+            "priorityOrder": [
+                "HEURISTIC",
+                "GER",
+                "NER",
+                "KVP"
+            ]
+        },
+        {
+            "fieldName": "INSURED_NAME_FIRST_NAME",
+            "priorityOrder": [
+                "HEURISTIC",
+                "GER",
+                "NER",
+                "KVP"
+            ]
+        },
+        {
+            "fieldName": "INSURED_NAME_LAST_NAME_COMPANY_NAME",
+            "priorityOrder": [
+                "HEURISTIC",
+                "GER",
+                "NER",
+                "KVP"
+            ]
+        },
+        {
+            "fieldName": "ALTERNATE_INSURED_NAME_FIRST_NAME",
+            "priorityOrder": [
+                "HEURISTIC",
+                "GER",
+                "NER",
+                "KVP"
+            ]
+        },
+        {
+            "fieldName": "ALTERNATE_INSURED_NAME_LAST_NAME_COMPANY_NAME",
+            "priorityOrder": [
+                "HEURISTIC",
+                "GER",
+                "NER",
+                "KVP"
+            ]
+        },
+        {
+            "fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION",
+            "priorityOrder": [
+                "HEURISTIC",
+                "GER",
+                "NER",
+                "KVP"
+            ]
+        },
+        {
+            "fieldName": "REASON_FOR_CHANGE",
+            "priorityOrder": [
+                "HEURISTIC",
+                "GER",
+                "NER",
+                "KVP"
+            ]
+        },
+        {
+            "fieldName": "INSURED_ADDRESS_STREET",
+            "priorityOrder": [
+                "HEURISTIC",
+                "GER",
+                "NER",
+                "KVP"
+            ]
+        },
+        {
+            "fieldName": "INSURED_ADDRESS_ZIP_CODE",
+            "priorityOrder": [
+                "HEURISTIC",
+                "GER",
+                "NER",
+                "KVP"
+            ]
+        },
+        {
+            "fieldName": "DEFAULT",
+            "priorityOrder": [
+                "HEURISTIC",
+                "GER",
+                "KVP",
+                "NER"
+            ]
+        }
+    ]
+}

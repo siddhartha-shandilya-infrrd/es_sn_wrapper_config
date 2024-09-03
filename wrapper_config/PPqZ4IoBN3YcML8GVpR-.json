@@ -1,1 +1,23 @@
-{"docType": "DECLN", "carrier": "PROGRESSIVE", "fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION", "pageNumber": "1", "flow": "LR", "synonymInDocument": {"dotAll": false, "ignoreCase": false, "pattern_string": "Lienholder", "fuzzy_tolerance": 2}, "regexAllowedChars": "[-0-9A-Za-z,.'/ ]", "length": "variable", "minimumNumberOfLines": "1", "maximumNumberOfLines": "1", "regexLookahead": {"dotAll": false, "ignoreCase": false, "pattern_string": "\\n|\\s{3,}"}, "lookaheadEscape": false}
+{
+    "docType": "DECLN",
+    "carrier": "PROGRESSIVE",
+    "fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION",
+    "pageNumber": "1",
+    "flow": "LR",
+    "synonymInDocument": {
+        "dotAll": false,
+        "ignoreCase": false,
+        "pattern_string": "Lienholder",
+        "fuzzy_tolerance": 2
+    },
+    "regexAllowedChars": "[-0-9A-Za-z,.'/ ]",
+    "length": "variable",
+    "minimumNumberOfLines": "1",
+    "maximumNumberOfLines": "1",
+    "regexLookahead": {
+        "dotAll": false,
+        "ignoreCase": false,
+        "pattern_string": "\\n|\\s{3,}"
+    },
+    "lookaheadEscape": false
+}

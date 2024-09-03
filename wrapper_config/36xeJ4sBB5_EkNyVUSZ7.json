@@ -1,1 +1,18 @@
-{"GEREntity": "Date", "docType": "DECLN", "fieldName": "EFFECTIVE_DATE", "carrier": "ERIE", "pageNumber": 1, "keywords": [{"pattern": ["policy\\speriod"], "direction": "STRICT_BOTTOM", "condition": "AND"}], "negativeKeywords": [], "pageBoundary": {}}
+{
+    "GEREntity": "Date",
+    "docType": "DECLN",
+    "fieldName": "EFFECTIVE_DATE",
+    "carrier": "ERIE",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "policy\\speriod"
+            ],
+            "direction": "STRICT_BOTTOM",
+            "condition": "AND"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

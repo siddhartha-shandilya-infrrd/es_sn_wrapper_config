@@ -1,1 +1,83 @@
-{"docType": "COMMON", "carrier": "STATE FARM-2", "extractorType": "HEURISTIC", "docFields": [{"fieldId": "6_tRpI8BGSRuDTJmgmwg", "fieldName": "POLICY_NUMBER"}, {"fieldId": "7PtRpI8BGSRuDTJmu2zh", "fieldName": "VEHICLE_YEAR"}, {"fieldId": "jPtCuo8BGSRuDTJme4IC", "fieldName": "VEHICLE_MAKE"}, {"fieldId": "7ftrpI8BGSRuDTJmk2w4", "fieldName": "INSURED_NAME_FIRST_NAME"}, {"fieldId": "7vtrpI8BGSRuDTJmzmx9", "fieldName": "INSURED_NAME_LAST_NAME_COMPANY_NAME"}, {"fieldId": "7_trpI8BGSRuDTJm_mzt", "fieldName": "ALTERNATE_INSURED_NAME_FIRST_NAME"}, {"fieldId": "8PtspI8BGSRuDTJmImws", "fieldName": "ALTERNATE_INSURED_NAME_LAST_NAME_COMPANY_NAME"}, {"fieldId": "EvvXpI8BGSRuDTJm5G3z", "fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION"}, {"fieldId": "XvsKpY8BGSRuDTJmAW3a", "fieldName": "VIN"}, {"fieldId": "f_sdpY8BGSRuDTJmu208", "fieldName": "COMPREHENSIVE_COVERAGE"}, {"fieldId": "gPsfpY8BGSRuDTJmNG2m", "fieldName": "COLLISION_COVERAGE"}, {"fieldId": "g_skpY8BGSRuDTJmiG3_", "fieldName": "EFFECTIVE_DATE"}, {"fieldId": "gvsfpY8BGSRuDTJmqG3o", "fieldName": "EXPIRATION_DATE"}, {"fieldId": "hPv1pY8BGSRuDTJmAG07", "fieldName": "DATE_OF_NOTICE"}, {"fieldId": "Z_u1uY8BGSRuDTJmCoIj", "fieldName": "INSURED_ADDRESS_STREET"}, {"fieldId": "aPu1uY8BGSRuDTJmSII5", "fieldName": "INSURED_ADDRESS_ZIP_CODE"}, {"fieldId": "afu1uY8BGSRuDTJmX4Kr", "fieldName": "REASON_FOR_CHANGE"}, {"fieldId": "evt6xI8BGSRuDTJmg-fT", "fieldName": "CANCELLATION_DATE"}, {"fieldId": "LPyR6I8BGSRuDTJmMLgG", "fieldName": "CHANGE_EFFECTIVE_DATE"}]}
+{
+    "docType": "COMMON",
+    "carrier": "STATE FARM-2",
+    "extractorType": "HEURISTIC",
+    "docFields": [
+        {
+            "fieldId": "6_tRpI8BGSRuDTJmgmwg",
+            "fieldName": "POLICY_NUMBER"
+        },
+        {
+            "fieldId": "7PtRpI8BGSRuDTJmu2zh",
+            "fieldName": "VEHICLE_YEAR"
+        },
+        {
+            "fieldId": "jPtCuo8BGSRuDTJme4IC",
+            "fieldName": "VEHICLE_MAKE"
+        },
+        {
+            "fieldId": "7ftrpI8BGSRuDTJmk2w4",
+            "fieldName": "INSURED_NAME_FIRST_NAME"
+        },
+        {
+            "fieldId": "7vtrpI8BGSRuDTJmzmx9",
+            "fieldName": "INSURED_NAME_LAST_NAME_COMPANY_NAME"
+        },
+        {
+            "fieldId": "7_trpI8BGSRuDTJm_mzt",
+            "fieldName": "ALTERNATE_INSURED_NAME_FIRST_NAME"
+        },
+        {
+            "fieldId": "8PtspI8BGSRuDTJmImws",
+            "fieldName": "ALTERNATE_INSURED_NAME_LAST_NAME_COMPANY_NAME"
+        },
+        {
+            "fieldId": "EvvXpI8BGSRuDTJm5G3z",
+            "fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION"
+        },
+        {
+            "fieldId": "XvsKpY8BGSRuDTJmAW3a",
+            "fieldName": "VIN"
+        },
+        {
+            "fieldId": "f_sdpY8BGSRuDTJmu208",
+            "fieldName": "COMPREHENSIVE_COVERAGE"
+        },
+        {
+            "fieldId": "gPsfpY8BGSRuDTJmNG2m",
+            "fieldName": "COLLISION_COVERAGE"
+        },
+        {
+            "fieldId": "g_skpY8BGSRuDTJmiG3_",
+            "fieldName": "EFFECTIVE_DATE"
+        },
+        {
+            "fieldId": "gvsfpY8BGSRuDTJmqG3o",
+            "fieldName": "EXPIRATION_DATE"
+        },
+        {
+            "fieldId": "hPv1pY8BGSRuDTJmAG07",
+            "fieldName": "DATE_OF_NOTICE"
+        },
+        {
+            "fieldId": "Z_u1uY8BGSRuDTJmCoIj",
+            "fieldName": "INSURED_ADDRESS_STREET"
+        },
+        {
+            "fieldId": "aPu1uY8BGSRuDTJmSII5",
+            "fieldName": "INSURED_ADDRESS_ZIP_CODE"
+        },
+        {
+            "fieldId": "afu1uY8BGSRuDTJmX4Kr",
+            "fieldName": "REASON_FOR_CHANGE"
+        },
+        {
+            "fieldId": "evt6xI8BGSRuDTJmg-fT",
+            "fieldName": "CANCELLATION_DATE"
+        },
+        {
+            "fieldId": "LPyR6I8BGSRuDTJmMLgG",
+            "fieldName": "CHANGE_EFFECTIVE_DATE"
+        }
+    ]
+}

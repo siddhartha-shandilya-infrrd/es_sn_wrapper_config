@@ -1,1 +1,190 @@
-{"list-first-acceptance-insured-info": {"groupId": "list-first-acceptance-insured-info", "page_num": "1", "padding_top": 70, "left_delims": {"keywords": [{"dotAll": false, "ignoreCase": false, "pattern_string": "Policy.+?\\d+[,.]?\\s+\\d{4}\\b"}, {"dotAll": false, "ignoreCase": false, "pattern_string": "[A-Z]{4}\\d{9}"}], "inclusive": false}, "top_delims": {"keywords": [{"dotAll": false, "ignoreCase": false, "pattern_string": "Policy.+?\\d+[,.]?\\s+\\d{4}\\b"}], "inclusive": true}, "right_delims": {"keywords": [{"dotAll": false, "ignoreCase": false, "pattern_string": "FIRST\\\\s+ACCEPTANCE"}], "inclusive": false}}, "list-first-acceptance-lender-info": {"groupId": "list-first-acceptance-lender-info", "page_num": "1", "padding_left": 20, "top_delims": {"keywords": [{"dotAll": false, "ignoreCase": false, "pattern_string": "\\d+\\s*_\\s*\\w\\s*_\\d+\\s*_\\d+"}], "inclusive": false}, "left_delims": {"keywords": [{"dotAll": false, "ignoreCase": false, "pattern_string": "\\d+\\s*_\\s*\\w\\s*_\\d+\\s*_\\d+"}], "inclusive": true}, "bottom_delims": {"keywords": [{"dotAll": false, "ignoreCase": false, "pattern_string": "The\\s*Pol[li1I]cy\\s*\\(s\\)\\s*and\\s*[/|]\\s*or\\s*[B8]ond\\s*\\(s\\)"}], "inclusive": false}}, "list-state-farm2-insured-info": {"groupId": "list-state-farm2-insured-info", "page_num": "1", "top_delims": {"keywords": [{"dotAll": false, "ignoreCase": false, "pattern_string": "NAME[O0D]\\s*INSURE[0OD]\\s*[:;]?"}], "inclusive": false}, "right_delims": {"keywords": [{"dotAll": false, "ignoreCase": false, "pattern_string": "YEAR\\s*[:;]?"}, {"dotAll": false, "ignoreCase": false, "pattern_string": "MAKE\\s*[:;]?"}], "inclusive": false}, "bottom_delims": {"keywords": [{"dotAll": false, "ignoreCase": false, "pattern_string": "M[0O]DEL\\s*[:;]?"}, {"dotAll": false, "ignoreCase": false, "pattern_string": "VIN\\s*[:;]?"}], "inclusive": false}, "padding_bottom": 40}, "list-state-farm2-lender-info": {"groupId": "list-state-farm2-lender-info", "page_num": "1", "top_delims": {"keywords": [{"dotAll": false, "ignoreCase": false, "pattern_string": "[A-Z]{2}\\d\\s*\\d{6}\\s*\\d{4}\\s*\\d{2}"}], "inclusive": false}, "right_delims": {"keywords": [{"dotAll": false, "ignoreCase": false, "pattern_string": "CODE\\s*[:;]?"}], "inclusive": false}, "bottom_delims": {"keywords": [{"dotAll": false, "ignoreCase": false, "pattern_string": "top\\s*left\\s*corner\\s*of"}], "inclusive": false}}, "list-state-farm2-coverage-info": {"groupId": "list-state-farm2-coverage-info", "page_num": "1", "top_delims": {"keywords": [{"dotAll": false, "ignoreCase": false, "pattern_string": "AGENT\\s*PHONE\\s*[:;]?"}], "inclusive": false}, "left_delims": {"keywords": [{"dotAll": false, "ignoreCase": false, "pattern_string": "COVERAGE\\s*[;:]?"}], "inclusive": false}, "bottom_delims": {"keywords": [{"dotAll": false, "ignoreCase": false, "pattern_string": "MESSAGES\\s*[:;]?\\s*The\\s*policy\\s*includes"}], "inclusive": false}}}
+{
+    "list-first-acceptance-insured-info": {
+        "groupId": "list-first-acceptance-insured-info",
+        "page_num": "1",
+        "padding_top": 70,
+        "left_delims": {
+            "keywords": [
+                {
+                    "dotAll": false,
+                    "ignoreCase": false,
+                    "pattern_string": "Policy.+?\\d+[,.]?\\s+\\d{4}\\b"
+                },
+                {
+                    "dotAll": false,
+                    "ignoreCase": false,
+                    "pattern_string": "[A-Z]{4}\\d{9}"
+                }
+            ],
+            "inclusive": false
+        },
+        "top_delims": {
+            "keywords": [
+                {
+                    "dotAll": false,
+                    "ignoreCase": false,
+                    "pattern_string": "Policy.+?\\d+[,.]?\\s+\\d{4}\\b"
+                }
+            ],
+            "inclusive": true
+        },
+        "right_delims": {
+            "keywords": [
+                {
+                    "dotAll": false,
+                    "ignoreCase": false,
+                    "pattern_string": "FIRST\\\\s+ACCEPTANCE"
+                }
+            ],
+            "inclusive": false
+        }
+    },
+    "list-first-acceptance-lender-info": {
+        "groupId": "list-first-acceptance-lender-info",
+        "page_num": "1",
+        "padding_left": 20,
+        "top_delims": {
+            "keywords": [
+                {
+                    "dotAll": false,
+                    "ignoreCase": false,
+                    "pattern_string": "\\d+\\s*_\\s*\\w\\s*_\\d+\\s*_\\d+"
+                }
+            ],
+            "inclusive": false
+        },
+        "left_delims": {
+            "keywords": [
+                {
+                    "dotAll": false,
+                    "ignoreCase": false,
+                    "pattern_string": "\\d+\\s*_\\s*\\w\\s*_\\d+\\s*_\\d+"
+                }
+            ],
+            "inclusive": true
+        },
+        "bottom_delims": {
+            "keywords": [
+                {
+                    "dotAll": false,
+                    "ignoreCase": false,
+                    "pattern_string": "The\\s*Pol[li1I]cy\\s*\\(s\\)\\s*and\\s*[/|]\\s*or\\s*[B8]ond\\s*\\(s\\)"
+                }
+            ],
+            "inclusive": false
+        }
+    },
+    "list-state-farm2-insured-info": {
+        "groupId": "list-state-farm2-insured-info",
+        "page_num": "1",
+        "top_delims": {
+            "keywords": [
+                {
+                    "dotAll": false,
+                    "ignoreCase": false,
+                    "pattern_string": "NAME[O0D]\\s*INSURE[0OD]\\s*[:;]?"
+                }
+            ],
+            "inclusive": false
+        },
+        "right_delims": {
+            "keywords": [
+                {
+                    "dotAll": false,
+                    "ignoreCase": false,
+                    "pattern_string": "YEAR\\s*[:;]?"
+                },
+                {
+                    "dotAll": false,
+                    "ignoreCase": false,
+                    "pattern_string": "MAKE\\s*[:;]?"
+                }
+            ],
+            "inclusive": false
+        },
+        "bottom_delims": {
+            "keywords": [
+                {
+                    "dotAll": false,
+                    "ignoreCase": false,
+                    "pattern_string": "M[0O]DEL\\s*[:;]?"
+                },
+                {
+                    "dotAll": false,
+                    "ignoreCase": false,
+                    "pattern_string": "VIN\\s*[:;]?"
+                }
+            ],
+            "inclusive": false
+        },
+        "padding_bottom": 40
+    },
+    "list-state-farm2-lender-info": {
+        "groupId": "list-state-farm2-lender-info",
+        "page_num": "1",
+        "top_delims": {
+            "keywords": [
+                {
+                    "dotAll": false,
+                    "ignoreCase": false,
+                    "pattern_string": "[A-Z]{2}\\d\\s*\\d{6}\\s*\\d{4}\\s*\\d{2}"
+                }
+            ],
+            "inclusive": false
+        },
+        "right_delims": {
+            "keywords": [
+                {
+                    "dotAll": false,
+                    "ignoreCase": false,
+                    "pattern_string": "CODE\\s*[:;]?"
+                }
+            ],
+            "inclusive": false
+        },
+        "bottom_delims": {
+            "keywords": [
+                {
+                    "dotAll": false,
+                    "ignoreCase": false,
+                    "pattern_string": "top\\s*left\\s*corner\\s*of"
+                }
+            ],
+            "inclusive": false
+        }
+    },
+    "list-state-farm2-coverage-info": {
+        "groupId": "list-state-farm2-coverage-info",
+        "page_num": "1",
+        "top_delims": {
+            "keywords": [
+                {
+                    "dotAll": false,
+                    "ignoreCase": false,
+                    "pattern_string": "AGENT\\s*PHONE\\s*[:;]?"
+                }
+            ],
+            "inclusive": false
+        },
+        "left_delims": {
+            "keywords": [
+                {
+                    "dotAll": false,
+                    "ignoreCase": false,
+                    "pattern_string": "COVERAGE\\s*[;:]?"
+                }
+            ],
+            "inclusive": false
+        },
+        "bottom_delims": {
+            "keywords": [
+                {
+                    "dotAll": false,
+                    "ignoreCase": false,
+                    "pattern_string": "MESSAGES\\s*[:;]?\\s*The\\s*policy\\s*includes"
+                }
+            ],
+            "inclusive": false
+        }
+    }
+}

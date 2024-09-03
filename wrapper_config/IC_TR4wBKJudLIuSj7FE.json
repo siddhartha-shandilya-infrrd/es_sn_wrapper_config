@@ -1,1 +1,21 @@
-{"fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION", "pageNumber": "1", "docType": "DECLN", "carrier": "ERIE", "match": [{"regex": "(.+)?other\\s*interest", "direction": "Horizontal"}, {"regex": "(.+)?erie\\s*agent", "direction": "Horizontal"}, {"regex": "(.+)?agent", "direction": "Horizontal"}], "not_match": []}
+{
+    "fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION",
+    "pageNumber": "1",
+    "docType": "DECLN",
+    "carrier": "ERIE",
+    "match": [
+        {
+            "regex": "(.+)?other\\s*interest",
+            "direction": "Horizontal"
+        },
+        {
+            "regex": "(.+)?erie\\s*agent",
+            "direction": "Horizontal"
+        },
+        {
+            "regex": "(.+)?agent",
+            "direction": "Horizontal"
+        }
+    ],
+    "not_match": []
+}

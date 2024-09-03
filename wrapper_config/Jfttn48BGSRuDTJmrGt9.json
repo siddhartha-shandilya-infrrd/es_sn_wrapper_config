@@ -1,1 +1,33 @@
-{"GEREntity": "Amount", "docType": "COMMON", "fieldName": "COMPREHENSIVE_COVERAGE", "carrier": "STATE FARM-2", "pageNumber": 1, "keywords": [{"pattern": ["\\bCOVERAGE(:)?\\b"], "direction": "STRICT_RIGHT", "condition": "OR"}, {"pattern": ["\\bDED(\\.)?[ ]{0,}COMP(\\.)?\\b"], "direction": "STRICT_LEFT", "condition": "OR"}], "negativeKeywords": [{"pattern": ["\\bDED(\\.)?[ ]{0,}COLL(\\.)?\\b"], "direction": "STRICT_LEFT", "condition": "AND"}], "pageBoundary": {}}
+{
+    "GEREntity": "Amount",
+    "docType": "COMMON",
+    "fieldName": "COMPREHENSIVE_COVERAGE",
+    "carrier": "STATE FARM-2",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "\\bCOVERAGE(:)?\\b"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "OR"
+        },
+        {
+            "pattern": [
+                "\\bDED(\\.)?[ ]{0,}COMP(\\.)?\\b"
+            ],
+            "direction": "STRICT_LEFT",
+            "condition": "OR"
+        }
+    ],
+    "negativeKeywords": [
+        {
+            "pattern": [
+                "\\bDED(\\.)?[ ]{0,}COLL(\\.)?\\b"
+            ],
+            "direction": "STRICT_LEFT",
+            "condition": "AND"
+        }
+    ],
+    "pageBoundary": {}
+}

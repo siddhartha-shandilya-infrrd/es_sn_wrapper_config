@@ -1,1 +1,22 @@
-{"docType": "COMMON", "carrier": "STATE FARM-2", "fieldName": "POLICY_NUMBER", "pageNumber": "1", "flow": "LR", "synonymInDocument": {"dotAll": false, "ignoreCase": false, "pattern_string": "P[O0]LICY\\s*N[O0]\\s*[:;]?\\s*"}, "regexAllowedChars": "[-0-9A-Z]", "length": "variable", "minimumNumberOfLines": "1", "maximumNumberOfLines": "1", "regexLookahead": {"dotAll": false, "ignoreCase": false, "pattern_string": "\\n|\\s{3,}"}, "lookaheadEscape": false}
+{
+    "docType": "COMMON",
+    "carrier": "STATE FARM-2",
+    "fieldName": "POLICY_NUMBER",
+    "pageNumber": "1",
+    "flow": "LR",
+    "synonymInDocument": {
+        "dotAll": false,
+        "ignoreCase": false,
+        "pattern_string": "P[O0]LICY\\s*N[O0]\\s*[:;]?\\s*"
+    },
+    "regexAllowedChars": "[-0-9A-Z]",
+    "length": "variable",
+    "minimumNumberOfLines": "1",
+    "maximumNumberOfLines": "1",
+    "regexLookahead": {
+        "dotAll": false,
+        "ignoreCase": false,
+        "pattern_string": "\\n|\\s{3,}"
+    },
+    "lookaheadEscape": false
+}
