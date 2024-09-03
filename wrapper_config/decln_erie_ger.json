@@ -74,10 +74,6 @@
         {
             "fieldId": "dgWnepEBGSRuDTJmqP6I",
             "fieldName": "INSURED_NAME_LAST_NAME_COMPANY_NAME"
-        },
-        {
-            "fieldId": "YQYfopEBGSRuDTJmt5SM",
-            "fieldName": "ALTERNATE_INSURED_NAME_LAST_NAME_COMPANY_NAME"
         }
     ]
 }

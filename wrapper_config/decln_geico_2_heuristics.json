@@ -44,8 +44,16 @@
             "fieldId": "IP8hoZABGSRuDTJmWQlK"
         },
         {
+            "fieldName": "VEHICLE_YEAR",
+            "fieldId": "JP_dpZABGSRuDTJmhgnc"
+        },
+        {
             "fieldName": "VEHICLE_MAKE",
             "fieldId": "If8ioZABGSRuDTJmYAky"
+        },
+        {
+            "fieldId": "I__ApZABGSRuDTJmhgkQ",
+            "fieldName": "VEHICLE_MAKE"
         },
         {
             "fieldId": "Iv89oZABGSRuDTJmxAn5",
@@ -110,14 +118,6 @@
         {
             "fieldId": "7wV3apEBGSRuDTJmSX4E",
             "fieldName": "ALTERNATE_INSURED_NAME_LAST_NAME_COMPANY_NAME"
-        },
-        {
-            "fieldId": "YgZAopEBGSRuDTJm35Qo",
-            "fieldName": "COMPREHENSIVE_COVERAGE"
-        },
-        {
-            "fieldId": "YwZCopEBGSRuDTJm4ZTa",
-            "fieldName": "COLLISION_COVERAGE"
         }
     ]
 }

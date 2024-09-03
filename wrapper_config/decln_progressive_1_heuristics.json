@@ -118,14 +118,6 @@
         {
             "fieldId": "7wV3apEBGSRuDTJmSX4E",
             "fieldName": "ALTERNATE_INSURED_NAME_LAST_NAME_COMPANY_NAME"
-        },
-        {
-            "fieldId": "wgZDn5EBGSRuDTJmt4Mx",
-            "fieldName": "INSURED_NAME_LAST_NAME_COMPANY_NAME"
-        },
-        {
-            "fieldId": "wwZnn5EBGSRuDTJmGYNy",
-            "fieldName": "ALTERNATE_INSURED_NAME_LAST_NAME_COMPANY_NAME"
         }
     ]
 }

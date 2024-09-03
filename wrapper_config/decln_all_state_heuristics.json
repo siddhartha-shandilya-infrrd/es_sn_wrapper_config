@@ -122,14 +122,6 @@
         {
             "fieldId": "7wV3apEBGSRuDTJmSX4E",
             "fieldName": "ALTERNATE_INSURED_NAME_LAST_NAME_COMPANY_NAME"
-        },
-        {
-            "fieldId": "qQTzS5EBGSRuDTJmcoBa",
-            "fieldName": "COLLISION_COVERAGE"
-        },
-        {
-            "fieldId": "qgT0S5EBGSRuDTJmvoAc",
-            "fieldName": "COMPREHENSIVE_COVERAGE"
         }
     ]
 }
