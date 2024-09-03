@@ -1,0 +1,1 @@
+{"GEREntity": "OrganizationName", "docType": "DECLN", "fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION", "carrier": "PROGRESSIVE", "pageNumber": [1, 2, 3], "keywords": [{"pattern": ["lienholder"], "direction": "STRICT_BOTTOM", "condition": "OR"}], "negativeKeywords": [], "pageBoundary": {}}

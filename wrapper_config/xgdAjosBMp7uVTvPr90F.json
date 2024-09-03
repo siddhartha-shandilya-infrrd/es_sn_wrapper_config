@@ -1,0 +1,1 @@
+{"GEREntity": "Date", "docType": "DECLN", "fieldName": "DATE_OF_NOTICE", "carrier": "GEICO", "pageNumber": 1, "keywords": [{"pattern": ["coverage\\s*as\\s*of"], "direction": "STRICT_RIGHT", "condition": "AND"}], "negativeKeywords": [], "pageBoundary": {}}

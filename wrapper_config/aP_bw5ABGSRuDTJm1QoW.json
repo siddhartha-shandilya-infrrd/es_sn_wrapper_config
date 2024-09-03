@@ -1,0 +1,1 @@
+{"fieldName": "EXCLUDED_DRIVERS_NAME_FIRST_NAME", "docType": "DECLN", "carrier": "COMMON", "match": [{"regex": "\\bEXCLUDED\\b", "pageNumber": "1", "direction": "Horizontal"}], "not_match": []}

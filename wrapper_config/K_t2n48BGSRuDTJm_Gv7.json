@@ -1,0 +1,1 @@
+{"GEREntity": "Year", "docType": "COMMON", "fieldName": "VEHICLE_YEAR", "carrier": "STATE FARM-2", "pageNumber": 1, "keywords": [{"pattern": ["\\bYEAR(:)?\\b"], "direction": "STRICT_RIGHT", "condition": "AND"}], "negativeKeywords": [], "pageBoundary": {}}

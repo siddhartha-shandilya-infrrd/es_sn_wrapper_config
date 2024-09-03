@@ -1,0 +1,1 @@
+{"fieldName": "EFFECTIVE_DATE", "pageNumber": "1", "docType": "DECLN", "carrier": "ERIE", "match": [{"regex": "(.+)?policy\\s*period", "direction": "Horizontal"}], "not_match": []}

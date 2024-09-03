@@ -1,0 +1,1 @@
+{"GEREntity": "Date", "docType": "DECLN", "fieldName": "DATE_OF_NOTICE", "carrier": "PROGRESSIVE", "pageNumber": [1, 2, 3], "keywords": [{"pattern": ["policy\\s+period"], "direction": "STRICT_TOP", "condition": "AND"}], "negativeKeywords": [{"pattern": ["policy\\s+period"], "direction": "STRICT_RIGHT", "condition": "OR"}], "pageBoundary": {"endY": 20}}

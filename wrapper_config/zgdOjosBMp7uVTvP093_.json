@@ -1,0 +1,1 @@
+{"fieldName": "POLICY_NUMBER", "pageNumber": "1", "docType": "DECLN", "carrier": "GEICO", "match": [{"regex": "(.+)?policy\\s*number", "direction": "Horizontal"}], "not_match": []}

@@ -1,0 +1,1 @@
+{"fieldName": "COMPREHENSIVE_COVERAGE", "pageNumber": "1", "docType": "DECLN", "carrier": "GEICO", "match": [{"regex": "(.+)?Comprehensive", "direction": "Horizontal"}], "not_match": []}

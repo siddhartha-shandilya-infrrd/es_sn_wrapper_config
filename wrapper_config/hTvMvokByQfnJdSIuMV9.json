@@ -1,0 +1,1 @@
+{"fieldName": "COMPREHENSIVE_COVERAGE", "docType": "DECLN", "carrier": "ALLSTATE", "match": [{"regex": "(.+)?comprehensive", "pageNumber": "1", "direction": "Horizontal"}, {"regex": "(.+)?deductible-2", "pageNumber": "1", "direction": "Horizontal"}], "not_match": [{"regex": "(.+)?deductible-1", "pageNumber": "1", "direction": "Horizontal"}]}

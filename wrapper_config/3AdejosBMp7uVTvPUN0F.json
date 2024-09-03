@@ -1,0 +1,1 @@
+{"fieldName": "COLLISION_COVERAGE", "pageNumber": "1", "docType": "DECLN", "carrier": "GEICO", "match": [{"regex": "(.+)?Collision", "direction": "Horizontal"}], "not_match": [{"regex": "(.+)?Comprehensive", "direction": "Horizontal"}]}

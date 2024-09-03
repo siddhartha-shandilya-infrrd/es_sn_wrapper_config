@@ -1,0 +1,1 @@
+{"GEREntity": "Address", "docType": "DECLN", "fieldName": "INSURED_ADDRESS_STREET", "carrier": "GEICO", "pageNumber": [1, 2, 3], "keywords": [{"pattern": ["mailing\\s+address"], "direction": "STRICT_BOTTOM", "condition": "AND", "proximity_threshold": 0.3}], "negativeKeywords": [], "pageBoundary": {}}

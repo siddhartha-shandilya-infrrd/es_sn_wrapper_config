@@ -1,0 +1,1 @@
+{"fieldName": "EFFECTIVE_DATE", "docType": "COMMON", "carrier": "STATE FARM-2", "match": [{"regex": "\\bPOLICY[ ]{0,}EFFECTIVE\\b", "pageNumber": "1", "direction": "Horizontal"}], "not_match": []}

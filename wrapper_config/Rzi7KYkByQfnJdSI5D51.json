@@ -1,0 +1,1 @@
+{"fieldName": "POLICY_NUMBER", "docType": "DECLN", "carrier": "ALLSTATE", "match": [{"regex": "(.+)?policy\\s*number", "pageNumber": "1", "direction": "Horizontal"}], "not_match": []}

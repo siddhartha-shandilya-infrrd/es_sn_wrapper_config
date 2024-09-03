@@ -1,0 +1,1 @@
+{"fieldName": "PROPERTY_LIABILITY_INSURANCE", "docType": "DECLN", "carrier": "COMMON", "match": [{"regex": "\\bPROPERTY\\sDAMAGE(?:[ ]LIABILITY)?\\b", "pageNumber": "1", "direction": "Horizontal"}], "not_match": []}

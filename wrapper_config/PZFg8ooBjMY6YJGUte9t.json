@@ -1,0 +1,1 @@
+{"fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION", "docType": "DECLN", "carrier": "PROGRESSIVE", "match": [{"regex": "(.+)?lienholder", "pageNumber": "1", "direction": "Horizontal"}], "not_match": []}

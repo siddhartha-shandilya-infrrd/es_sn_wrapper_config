@@ -1,0 +1,1 @@
+{"fieldName": "COLLISION_COVERAGE", "pageNumber": "1", "docType": "DECLN", "carrier": "ERIE", "match": [{"regex": "(.+)?collision", "direction": "Horizontal"}], "not_match": []}

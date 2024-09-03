@@ -1,0 +1,1 @@
+{"fieldName": "VEHICLE_YEAR", "docType": "COMMON", "carrier": "STATE FARM-2", "match": [{"regex": "\\bYEAR(:)?\\b", "pageNumber": "1", "direction": "Horizontal"}], "not_match": []}

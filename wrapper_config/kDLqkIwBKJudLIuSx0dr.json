@@ -1,0 +1,1 @@
+{"GEREntity": "Date", "docType": "DECLN", "fieldName": "EFFECTIVE_DATE", "carrier": "GEICO", "pageNumber": 1, "keywords": [{"pattern": ["for\\s*the\\s*following"], "direction": "STRICT_LEFT", "condition": "AND"}], "negativeKeywords": [], "pageBoundary": {}}

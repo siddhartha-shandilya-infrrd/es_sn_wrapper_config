@@ -1,0 +1,1 @@
+{"fieldName": "INSURED_ADDRESS_ZIP_CODE", "pageNumber": "1", "docType": "DECLN", "carrier": "ERIE", "match": [{"regex": "(.+)?named\\sinsured", "direction": "Vertical"}], "not_match": []}

@@ -1,0 +1,1 @@
+{"fieldName": "EFFECTIVE_DATE", "pageNumber": "1", "docType": "DECLN", "carrier": "GEICO", "match": [{"regex": "(.+)?effective\\s*date", "direction": "Horizontal"}], "not_match": []}

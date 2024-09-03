@@ -1,0 +1,1 @@
+{"fieldName": "POLICY_NUMBER", "docType": "COMMON", "carrier": "FIRST_ACCEPTANCE", "match": [{"regex": "(.+)?policy\\snumber", "pageNumber": "1", "direction": "Horizontal"}]}

@@ -1,0 +1,1 @@
+{"GEREntity": "Amount", "docType": "COMMON", "fieldName": "COLLISION_COVERAGE", "carrier": "STATE FARM-2", "pageNumber": 1, "keywords": [{"pattern": ["\\bDED(\\.)?[ ]{0,}COLL(\\.)?\\b"], "direction": "STRICT_LEFT", "condition": "AND"}], "negativeKeywords": [], "pageBoundary": {}}

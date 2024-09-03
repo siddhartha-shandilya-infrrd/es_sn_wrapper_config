@@ -1,0 +1,1 @@
+{"fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION", "docType": "DECLN", "carrier": "ALLSTATE", "match": [{"regex": "(.+)?the\\s*person\\s*or\\s*organization", "pageNumber": "1", "direction": "Horizontal"}], "not_match": []}

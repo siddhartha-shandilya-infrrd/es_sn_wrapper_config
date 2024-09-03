@@ -1,0 +1,1 @@
+{"fieldName": "INSURED_ADDRESS_STREET", "docType": "COMMON", "carrier": "FIRST_ACCEPTANCE", "match": [{"regex": "(.+)?insured\\sinformation", "pageNumber": "1", "direction": "Horizontal"}]}

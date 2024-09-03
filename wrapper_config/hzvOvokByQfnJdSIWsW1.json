@@ -1,0 +1,1 @@
+{"fieldName": "insured", "docType": "DECLN", "carrier": "ALLSTATE", "match": [{"regex": "(.+)?policyholder", "pageNumber": "1", "direction": "Horizontal"}], "not_match": []}
