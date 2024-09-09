@@ -1,0 +1,26 @@
+{
+    "GEREntity": "Amount",
+    "docType": "DECLN",
+    "fieldName": "COLLISION_COVERAGE",
+    "carrier": "ALLSTATE",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "Collision"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "AND",
+            "proximity_threshold": 0.9
+        },
+        {
+            "pattern": [
+                "Deductible"
+            ],
+            "direction": "BOTTOM",
+            "condition": "OR"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

@@ -1,0 +1,37 @@
+{
+    "list_ntp_flow_env_vars": {
+        "LIST_NTP_EXTRACTORS": [
+            "HEURISTIC",
+            "KVP",
+            "GER"
+        ],
+        "LIST_NTP_FLOW": true,
+        "LIST_NTP_CARRIERS": [
+            "GEICO",
+            "STATE FARM",
+            "LIB",
+            "WESTERN",
+            "PROGRESSIVE",
+            "COMMON"
+        ],
+        "LIST_NTP_CARRIERS_FORCE_STOP": {
+            "GEICO": false,
+            "STATE FARM": false,
+            "LIB": false,
+            "WESTERN": false,
+            "COMMON": true,
+            "PROGRESSIVE": true
+        },
+        "LIST_NTP_FLOW_2": true,
+        "LIST_NTP_CARRIERS_2": [
+            "GEICO_CANCEL",
+            "FIRST_ACCEPTANCE",
+            "STATE FARM-2"
+        ],
+        "LIST_NTP_CARRIERS_FORCE_STOP_2": {
+            "GEICO_CANCEL": false,
+            "FIRST_ACCEPTANCE": false,
+            "STATE FARM-2": false
+        }
+    }
+}

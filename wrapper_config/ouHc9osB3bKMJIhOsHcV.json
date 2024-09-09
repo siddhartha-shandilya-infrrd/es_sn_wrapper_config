@@ -1,0 +1,18 @@
+{
+    "fieldName": "COMPREHENSIVE_COVERAGE",
+    "docType": "DECLN",
+    "carrier": "PROGRESSIVE",
+    "match": [
+        {
+            "regex": "(.+)?deductible[:]?[-]?2",
+            "pageNumber": "2",
+            "direction": "Horizontal"
+        },
+        {
+            "regex": "(.+)?deductible",
+            "pageNumber": "2",
+            "direction": "Horizontal"
+        }
+    ],
+    "not_match": []
+}

@@ -1,0 +1,18 @@
+{
+    "fieldName": "ACCIDENT_LIABILITY_INSURANCE",
+    "docType": "DECLN",
+    "carrier": "COMMON",
+    "match": [
+        {
+            "regex": "\\bBODILY\\s*INJURY\\s*(?:LIABILITY)?\\b",
+            "pageNumber": "1",
+            "direction": "Horizontal"
+        },
+        {
+            "regex": "\\bBOD\\s*INJ\\b",
+            "pageNumber": "1",
+            "direction": "Horizontal"
+        }
+    ],
+    "not_match": []
+}

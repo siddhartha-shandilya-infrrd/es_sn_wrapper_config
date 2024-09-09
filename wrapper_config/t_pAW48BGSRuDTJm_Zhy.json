@@ -1,0 +1,12 @@
+{
+    "fieldName": "INSURED_NAME_FIRST_NAME",
+    "docType": "COMMON",
+    "carrier": "FIRST_ACCEPTANCE",
+    "match": [
+        {
+            "regex": "(.+)?insured\\sinformation",
+            "pageNumber": "1",
+            "direction": "Vertical"
+        }
+    ]
+}

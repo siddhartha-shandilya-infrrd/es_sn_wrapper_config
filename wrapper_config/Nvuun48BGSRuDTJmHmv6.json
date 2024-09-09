@@ -1,0 +1,13 @@
+{
+    "fieldName": "VIN",
+    "docType": "COMMON",
+    "carrier": "STATE FARM-2",
+    "match": [
+        {
+            "regex": "\\bVIN\\b",
+            "pageNumber": "1",
+            "direction": "Horizontal"
+        }
+    ],
+    "not_match": []
+}

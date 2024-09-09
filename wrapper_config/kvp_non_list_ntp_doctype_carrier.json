@@ -1,0 +1,14 @@
+{
+    "DECLN/ALLSTATE": "decln_all_state_kvp",
+    "DECLN/ERIE": "decln_erie_kvp",
+    "DECLN/PROGRESSIVE": "decln_progressive_kvp",
+    "DECLN/PROGRESSIVE-1": "decln_progressive_1_kvp",
+    "DECLN/PROGRESSIVE-2": "decln_progressive_2_kvp",
+    "DECLN/PROGRESSIVE-3": "decln_progressive_3_kvp",
+    "DECLN/GEICO": "decln_geico_kvp",
+    "DECLN/GEICO-1": "decln_geico_1_kvp",
+    "DECLN/GEICO-2": "decln_geico_2_kvp",
+    "DECLN/GEICO-3": "decln_geico_3_kvp",
+    "DECLN/GEICO-5": "decln_geico_5_kvp",
+    "DECLN/COMMON": "decln_other_kvp"
+}

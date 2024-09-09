@@ -1,0 +1,32 @@
+{
+    "docType": "DECLN",
+    "carrier": "PROGRESSIVE",
+    "fieldName": "INSURED_NAME_LAST_NAME_COMPANY_NAME",
+    "pageNumber": "1",
+    "flow": "TB",
+    "synonymInDocument": {
+        "dotAll": false,
+        "ignoreCase": true,
+        "pattern_string": "Policy\\s*holder(s)?[:;]?"
+    },
+    "regexAllowedChars": "[A-Za-z ]",
+    "length": "variable",
+    "minimumNumberOfLines": "1",
+    "maximumNumberOfLines": "1",
+    "regexLookbehind": {
+        "dotAll": false,
+        "ignoreCase": false,
+        "pattern_string": {
+            "dotAll": false,
+            "ignoreCase": false,
+            "pattern_string": "\\n"
+        }
+    },
+    "regexLookahead": {
+        "dotAll": false,
+        "ignoreCase": false,
+        "pattern_string": "\\n|\\b"
+    },
+    "lookaheadEscape": false,
+    "groupId": "decln-progressive_1-page1-insured_names-group_1"
+}

@@ -1,0 +1,372 @@
+{
+    "queue_field_conf_pairs": [
+        {
+            "fieldName": "DOC_TYPE",
+            "confidence": 0.5
+        },
+        {
+            "fieldName": "LIST_TYPE",
+            "confidence": 0.5
+        },
+        {
+            "fieldName": "ACCIDENT_LIABILITY_INSURANCE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "AGENT_PHONE_NUMBER",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "ALTERNATE_INSURED_NAME_FIRST_NAME",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "ALTERNATE_INSURED_NAME_LAST_NAME_COMPANY_NAME",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "BINDING_WORDING_DESCRIPTION",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "CANCELLATION_DATE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "CARRIER",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "CARRIER_ADDRESS_CITY",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "CARRIER_ADDRESS_STATE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "CARRIER_ADDRESS_STREET",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "CARRIER_ADDRESS_ZIP_CODE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "CARRIER_BILL_REMITTANCE_ADDRESS_ID",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "CARRIER_BILL_REMITTANCE_ATTENTION",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "CARRIER_BILL_REMITTANCE_CITY",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "CARRIER_BILL_REMITTANCE_STATE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "CARRIER_BILL_REMITTANCE_STREET",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "CARRIER_BILL_REMITTANCE_ZIP_CODE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "CHANGE_EFFECTIVE_DATE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "COLLISION_COVERAGE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "COMBINED_LIMIT_LIABILITY_INSURANCE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "COMPREHENSIVE_COVERAGE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "CONDOMINIUM_ASSOCIATION_NAME",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "DATE_OF_NOTICE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "DOCUMENT_DESTINATION",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "DWELLING_ADDRESS_CITY",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "DWELLING_ADDRESS_STATE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "DWELLING_ADDRESS_STREET",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "DWELLING_ADDRESS_ZIP_CODE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "DWELLING_COVERAGE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "DWELLING_DEDUCTIBLE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "EFFECTIVE_DATE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "ESCROW_AMOUNT_DUE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "ESCROW_PREMIUM_AMOUNT",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "ESCROW_BILL_DUE_DATE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "ESCROW_TRACKED",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "EXCLUDED_DRIVERS_NAME_FIRST_NAME",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "EXCLUDED_DRIVERS_NAME_LAST_NAME",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "EXPIRATION_DATE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "FLOOD_DEDUCTIBLE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "FLOOD_DEWLLING_COVERAGE_LIMIT",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "FLOOD_REPLACEMENT_COST",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "FLOOD_ZONE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "GRANDFATHERED_FLAG_DESCRIPTION",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "INSURED_ADDRESS_CITY",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "INSURED_ADDRESS_STATE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "INSURED_ADDRESS_STREET",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "INSURED_ADDRESS_ZIP_CODE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "INSURED_NAME_FIRST_NAME",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "INSURED_NAME_LAST_NAME_COMPANY_NAME",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "LEASE_TRACKED",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "LENDER_LISTED_AS_ADDITIONAL_NAMED_INSURED",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "LENDER_LISTED_AS_ADDITIONAL_NAMED_INSURED_DESCRIPTION",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "LENDER_LISTED_AS_LIENHOLDER",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "LENDER_LISTED_AS_MORTGAGEE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "LENDER_LISTED_AS_MORTGAGEE_DESCRIPTION",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "LIEN_HOLDER_ADDRESS_CITY",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "LIEN_HOLDER_ADDRESS_STATE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "LIEN_HOLDER_ADDRESS_STREET",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "LIEN_HOLDER_ADDRESS_ZIP_CODE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "MOBILE_HOME_ADDRESS_STATE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "MOBILE_HOME_ADDRESS_STREET",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "MOBILE_HOME_ADDRESS_ZIP_CODE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "MOBILE_HOME_DESCRIPTION",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "MOBILE_HOME_YEAR",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "MOBILE_HOME_MAKE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "MOBILE_HOME_SERIAL#",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "NFIP_POLICY_DESCRIPTION",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "NOTES_FROM_CU",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "NUMBER_OF_UNITS",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "PERSON_LIABILITY_INSURANCE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "PHYSICAL_DAMAGE_COVERAGE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "POLICY_NUMBER",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "POLICY_TYPE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "PROPERTY_LIABILITY_INSURANCE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "REASON_FOR_CHANGE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "REINSTATEMENT_DATE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "REPLACEMENT_COST",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "SNC_POSSIBLE_MATCH_REFERENCE_ID",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "SNC_CARRIER_CODE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "TRACKING_SERVICE_RESULTS",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "UNACCEPTABLE_DOCUMENT_TYPES",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "USC_42_4012_A_B_7_LANGUAGE_DESCRIPTION",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "VEHICLE_MAKE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "VEHICLE_YEAR",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "VIN",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "WIND_DEDUCTIBLE",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "WIND_DWELLING_COVERAGE_LIMIT",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "WIND_EXCLUDED_DESCRIPTION",
+            "confidence": 0.85
+        },
+        {
+            "fieldName": "WIND_ONLY_DESCRIPTION",
+            "confidence": 0.85
+        }
+    ]
+}

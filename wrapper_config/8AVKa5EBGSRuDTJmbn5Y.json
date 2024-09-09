@@ -1,0 +1,13 @@
+{
+    "fieldName": "VIN",
+    "docType": "DECLN",
+    "carrier": "COMMON",
+    "match": [
+        {
+            "regex": "\\bVIN\\b",
+            "pageNumber": "1",
+            "direction": "Horizontal"
+        }
+    ],
+    "not_match": []
+}

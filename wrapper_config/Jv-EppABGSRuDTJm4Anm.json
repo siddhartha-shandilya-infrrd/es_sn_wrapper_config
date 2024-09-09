@@ -1,0 +1,25 @@
+{
+    "GEREntity": "Amount",
+    "docType": "DECLN",
+    "fieldName": "ACCIDENT_LIABILITY_INSURANCE",
+    "carrier": "COMMON",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "\\bBODILY\\s*INJURY\\s*(?:LIABILITY)?\\b"
+            ],
+            "direction": "RIGHT",
+            "condition": "OR"
+        },
+        {
+            "pattern": [
+                "\\bBOD\\s*INJ\\b"
+            ],
+            "direction": "RIGHT",
+            "condition": "OR"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

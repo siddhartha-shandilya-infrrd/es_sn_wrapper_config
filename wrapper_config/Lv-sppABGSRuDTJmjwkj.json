@@ -1,0 +1,13 @@
+{
+    "fieldName": "PHYSICAL_DAMAGE_COVERAGE",
+    "docType": "DECLN",
+    "carrier": "COMMON",
+    "match": [
+        {
+            "regex": "\\bHULL\\sAND\\sEQUIPMENT(?::)?\\b",
+            "pageNumber": "1",
+            "direction": "Horizontal"
+        }
+    ],
+    "not_match": []
+}

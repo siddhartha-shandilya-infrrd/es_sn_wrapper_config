@@ -1,0 +1,13 @@
+{
+    "fieldName": "CANCELLATION_DATE",
+    "docType": "COMMON",
+    "carrier": "STATE FARM-2",
+    "match": [
+        {
+            "regex": "TERMINATED[ ]{1,}EFFECTIVE",
+            "pageNumber": "1",
+            "direction": "Horizontal"
+        }
+    ],
+    "not_match": []
+}

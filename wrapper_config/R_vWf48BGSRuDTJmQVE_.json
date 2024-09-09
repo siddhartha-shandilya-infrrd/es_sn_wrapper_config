@@ -1,0 +1,19 @@
+{
+    "GEREntity": "Date",
+    "docType": "COMMON",
+    "fieldName": "REINSTATEMENT_DATE",
+    "carrier": "FIRST_ACCEPTANCE",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "Policy[ ]{0,}Reinstated"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "AND",
+            "proximity_threshold": 0.1
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

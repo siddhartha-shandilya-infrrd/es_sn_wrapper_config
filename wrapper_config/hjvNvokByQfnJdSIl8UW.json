@@ -1,0 +1,13 @@
+{
+    "fieldName": "DATE_OF_NOTICE",
+    "docType": "DECLN",
+    "carrier": "ALLSTATE",
+    "match": [
+        {
+            "regex": "(.+)?date",
+            "pageNumber": "1",
+            "direction": "Horizontal"
+        }
+    ],
+    "not_match": []
+}

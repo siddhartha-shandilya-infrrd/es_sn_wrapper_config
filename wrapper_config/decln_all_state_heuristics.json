@@ -1,0 +1,127 @@
+{
+    "docType": "DELCN",
+    "carrier": "ALLSTATE",
+    "extractorType": "HEURISTIC",
+    "docFields": [
+        {
+            "fieldId": "h84DIYkB-dKLxelnYPQR",
+            "fieldName": "POLICY_NUMBER"
+        },
+        {
+            "fieldId": "iM4HIYkB-dKLxelnDvQj",
+            "fieldName": "POLICY_NUMBER"
+        },
+        {
+            "fieldId": "ic4IIYkB-dKLxelnGPS2",
+            "fieldName": "EFFECTIVE_DATE"
+        },
+        {
+            "fieldId": "is4JIYkB-dKLxelnmfSz",
+            "fieldName": "COLLISION_COVERAGE"
+        },
+        {
+            "fieldId": "i85sIYkB-dKLxelnT_R-",
+            "fieldName": "VIN"
+        },
+        {
+            "fieldId": "qjlKiIkByQfnJdSIISpY",
+            "fieldName": "COMPREHENSIVE_COVERAGE"
+        },
+        {
+            "fieldId": "qzl2iIkByQfnJdSIHCpG",
+            "fieldName": "DATE_OF_NOTICE"
+        },
+        {
+            "fieldId": "yTkxkokByQfnJdSIatG0",
+            "fieldName": "INSURED_ADDRESS_STREET"
+        },
+        {
+            "fieldId": "yjkxkokByQfnJdSIwNFd",
+            "fieldName": "INSURED_ADDRESS_CITY"
+        },
+        {
+            "fieldId": "yzkykokByQfnJdSIN9HC",
+            "fieldName": "INSURED_ADDRESS_STATE"
+        },
+        {
+            "fieldId": "zDkykokByQfnJdSIjdE3",
+            "fieldName": "INSURED_ADDRESS_ZIP_CODE"
+        },
+        {
+            "fieldId": "GjpklokByQfnJdSI2AYF",
+            "fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION"
+        },
+        {
+            "fieldName": "VEHICLE_YEAR",
+            "fieldId": "JP_dpZABGSRuDTJmhgnc"
+        },
+        {
+            "fieldName": "VEHICLE_MAKE",
+            "fieldId": "If8ioZABGSRuDTJmYAky"
+        },
+        {
+            "fieldId": "Iv89oZABGSRuDTJmxAn5",
+            "fieldName": "CHANGE_EFFECTIVE_DATE"
+        },
+        {
+            "fieldId": "Vf9su5ABGSRuDTJmlQqJ",
+            "fieldName": "REASON_FOR_CHANGE"
+        },
+        {
+            "fieldId": "Vv9tu5ABGSRuDTJmbQrR",
+            "fieldName": "ACCIDENT_LIABILITY_INSURANCE"
+        },
+        {
+            "fieldId": "V_9uu5ABGSRuDTJmGAob",
+            "fieldName": "PERSON_LIABILITY_INSURANCE"
+        },
+        {
+            "fieldId": "WP9uu5ABGSRuDTJmdwog",
+            "fieldName": "PROPERTY_LIABILITY_INSURANCE"
+        },
+        {
+            "fieldId": "Wf9uu5ABGSRuDTJm2QqC",
+            "fieldName": "PHYSICAL_DAMAGE_COVERAGE"
+        },
+        {
+            "fieldId": "Wv9vu5ABGSRuDTJmSgrP",
+            "fieldName": "COMBINED_LIMIT_LIABILITY_INSURANCE"
+        },
+        {
+            "fieldId": "W_9vu5ABGSRuDTJmuwqT",
+            "fieldName": "EXCLUDED_DRIVERS_NAME_LAST_NAME"
+        },
+        {
+            "fieldId": "XP9wu5ABGSRuDTJmGQp5",
+            "fieldName": "EXCLUDED_DRIVERS_NAME_FIRST_NAME"
+        },
+        {
+            "fieldId": "Xf9wu5ABGSRuDTJmgQpZ",
+            "fieldName": "LENDER_LISTED_AS_ADDITIONAL_NAMED_INSURED_DESCRIPTION"
+        },
+        {
+            "fieldId": "pv_51ZABGSRuDTJmDJGR",
+            "fieldName": "EXPIRATION_DATE"
+        },
+        {
+            "fieldId": "XAGuBJEBGSRuDTJmL2Xp",
+            "fieldName": "POLICY_NUMBER"
+        },
+        {
+            "fieldId": "-ADg6JABGSRuDTJmmaYh",
+            "fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION"
+        },
+        {
+            "fieldId": "XAGuBJEBGSRuDTJmL2Xp",
+            "fieldName": "POLICY_NUMBER"
+        },
+        {
+            "fieldId": "7gV2apEBGSRuDTJmcH5W",
+            "fieldName": "INSURED_NAME_LAST_NAME_COMPANY_NAME"
+        },
+        {
+            "fieldId": "7wV3apEBGSRuDTJmSX4E",
+            "fieldName": "ALTERNATE_INSURED_NAME_LAST_NAME_COMPANY_NAME"
+        }
+    ]
+}

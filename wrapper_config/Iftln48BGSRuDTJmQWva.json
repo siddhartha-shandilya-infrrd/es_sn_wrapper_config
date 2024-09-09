@@ -1,0 +1,18 @@
+{
+    "GEREntity": "PersonName",
+    "docType": "COMMON",
+    "fieldName": "ALTERNATE_INSURED_NAME_FIRST_NAME",
+    "carrier": "STATE FARM-2",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "\\bNAMED[ ]{0,}INSURED\\b"
+            ],
+            "direction": "BOTTOM",
+            "condition": "AND"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

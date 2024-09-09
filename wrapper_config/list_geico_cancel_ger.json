@@ -1,0 +1,35 @@
+{
+    "docType": "COMMON",
+    "carrier": "GEICO_CANCEL",
+    "extractorType": "GER",
+    "docFields": [
+        {
+            "fieldId": "1_mcLY8BGSRuDTJmkK-R",
+            "fieldName": "ALTERNATE_INSURED_NAME_FIRST_NAME"
+        },
+        {
+            "fieldId": "2PmdLY8BGSRuDTJm3K-j",
+            "fieldName": "ALTERNATE_INSURED_NAME_LAST_NAME_COMPANY_NAME"
+        },
+        {
+            "fieldId": "2fnCLY8BGSRuDTJmP69u",
+            "fieldName": "DATE_OF_NOTICE"
+        },
+        {
+            "fieldId": "2vnKLY8BGSRuDTJmDa8C",
+            "fieldName": "INSURED_NAME_FIRST_NAME"
+        },
+        {
+            "fieldId": "2_nLLY8BGSRuDTJm66-0",
+            "fieldName": "INSURED_NAME_LAST_NAME_COMPANY_NAME"
+        },
+        {
+            "fieldId": "3PnNLY8BGSRuDTJmkq_6",
+            "fieldName": "VEHICLE_YEAR"
+        },
+        {
+            "fieldId": "QvtafI8BGSRuDTJmS1Hx",
+            "fieldName": "CANCELLATION_DATE"
+        }
+    ]
+}

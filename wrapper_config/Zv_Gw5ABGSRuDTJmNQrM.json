@@ -1,0 +1,39 @@
+{
+    "GEREntity": "OrganizationName",
+    "docType": "DECLN",
+    "fieldName": "LENDER_LISTED_AS_ADDITIONAL_NAMED_INSURED_DESCRIPTION",
+    "carrier": "COMMON",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "\\bADDITIONAL\\sINSURED\\b"
+            ],
+            "direction": "BOTTOM",
+            "condition": "OR"
+        },
+        {
+            "pattern": [
+                "\\bPO\\sBOX\\s\\d{3}(?:\\d{3})?\\b"
+            ],
+            "direction": "STRICT_LEFT",
+            "condition": "OR"
+        },
+        {
+            "pattern": [
+                "\\bPO\\sBOX\\s\\d{3}(?:\\d{3})?\\b"
+            ],
+            "direction": "TOP",
+            "condition": "OR"
+        },
+        {
+            "pattern": [
+                "\\b\\d{5}\\sGENERATIONS\\sDR\\b"
+            ],
+            "direction": "TOP",
+            "condition": "OR"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

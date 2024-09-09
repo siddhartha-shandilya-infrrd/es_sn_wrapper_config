@@ -1,0 +1,95 @@
+{
+    "docType": "DECLN",
+    "carrier": "ALLSTATE",
+    "extractorType": "KVP",
+    "docFields": [
+        {
+            "fieldId": "Rzi7KYkByQfnJdSI5D51",
+            "fieldName": "POLICY_NUMBER"
+        },
+        {
+            "fieldId": "SDi8KYkByQfnJdSIPz6p",
+            "fieldName": "EFFECTIVE_DATE"
+        },
+        {
+            "fieldId": "Sji8KYkByQfnJdSI5D5_",
+            "fieldName": "COLLISION_COVERAGE"
+        },
+        {
+            "fieldId": "STi8KYkByQfnJdSIkT79",
+            "fieldName": "VIN"
+        },
+        {
+            "fieldId": "hDvLvokByQfnJdSIrcUh",
+            "fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION"
+        },
+        {
+            "fieldId": "hTvMvokByQfnJdSIuMV9",
+            "fieldName": "COMPREHENSIVE_COVERAGE"
+        },
+        {
+            "fieldId": "hjvNvokByQfnJdSIl8UW",
+            "fieldName": "DATE_OF_NOTICE"
+        },
+        {
+            "fieldId": "hzvOvokByQfnJdSIWsW1",
+            "fieldName": "insured"
+        },
+        {
+            "fieldId": "K_-oppABGSRuDTJmhwmH",
+            "fieldName": "ACCIDENT_LIABILITY_INSURANCE"
+        },
+        {
+            "fieldId": "LP-qppABGSRuDTJmUgnt",
+            "fieldName": "CHANGE_EFFECTIVE_DATE"
+        },
+        {
+            "fieldId": "Lv-sppABGSRuDTJmjwkj",
+            "fieldName": "PHYSICAL_DAMAGE_COVERAGE"
+        },
+        {
+            "fieldId": "Lf-rppABGSRuDTJm3glV",
+            "fieldName": "PROPERTY_LIABILITY_INSURANCE"
+        },
+        {
+            "fieldId": "Kv-nppABGSRuDTJmxwm8",
+            "fieldName": "VEHICLE_YEAR"
+        },
+        {
+            "fieldId": "VP9AupABGSRuDTJmXgow",
+            "fieldName": "VEHICLE_MAKE"
+        },
+        {
+            "fieldId": "Yf9rvJABGSRuDTJmbgpv",
+            "fieldName": "PERSON_LIABILITY_INSURANCE"
+        },
+        {
+            "fieldId": "Yv9rvJABGSRuDTJm2gos",
+            "fieldName": "PHYSICAL_DAMAGE_COVERAGE"
+        },
+        {
+            "fieldId": "Y_9svJABGSRuDTJmLwpp",
+            "fieldName": "COMBINED_LIMIT_LIABILITY_INSURANCE"
+        },
+        {
+            "fieldId": "Z__bw5ABGSRuDTJmbgqc",
+            "fieldName": "EXCLUDED_DRIVERS_NAME_LAST_NAME"
+        },
+        {
+            "fieldId": "aP_bw5ABGSRuDTJm1QoW",
+            "fieldName": "EXCLUDED_DRIVERS_NAME_FIRST_NAME"
+        },
+        {
+            "fieldId": "af_cw5ABGSRuDTJmhQr5",
+            "fieldName": "LENDER_LISTED_AS_ADDITIONAL_NAMED_INSURED_DESCRIPTION"
+        },
+        {
+            "fieldId": "rQQNTJEBGSRuDTJmAYDc",
+            "fieldName": "INSURED_NAME_LAST_NAME_COMPANY_NAME"
+        },
+        {
+            "fieldId": "rgQOTJEBGSRuDTJmdYAl",
+            "fieldName": "ALTERNATE_INSURED_NAME_LAST_NAME_COMPANY_NAME"
+        }
+    ]
+}
