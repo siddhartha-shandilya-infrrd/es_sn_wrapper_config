@@ -1,8 +1,0 @@
-{
-    "docType": "COMMON",
-    "carrier": "FIRST_ACCEPTANCE",
-    "fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION",
-    "pageNumber": "1",
-    "fromHeader": true,
-    "groupId": "list-first-acceptance-lender-info"
-}

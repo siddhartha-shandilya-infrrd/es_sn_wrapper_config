@@ -1,8 +1,0 @@
-{
-    "docType": "COMMON",
-    "carrier": "STATE FARM-2",
-    "fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION",
-    "pageNumber": "1",
-    "fromHeader": true,
-    "groupId": "list-state-farm2-lender-info"
-}
