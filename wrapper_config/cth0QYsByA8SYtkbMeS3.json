@@ -29,8 +29,7 @@
     "negativeKeywords": [
         {
             "pattern": [
-                "collision",
-                "Comprehensive\\s*Window\\s*Glass"
+                "collision"
             ],
             "direction": "STRICT_RIGHT",
             "condition": "OR"

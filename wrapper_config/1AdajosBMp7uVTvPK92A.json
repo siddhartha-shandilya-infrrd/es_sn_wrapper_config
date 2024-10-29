@@ -11,7 +11,7 @@
                 "DEDUCTIBLES(?::)?"
             ],
             "direction": "STRICT_RIGHT",
-            "condition": "AND",
+            "condition": "OR",
             "proximity_threshold": 0.8
         },
         {
@@ -19,7 +19,7 @@
                 "limit[s]?\\s+and[ /]or\\s+deductible[s]?"
             ],
             "direction": "STRICT_BOTTOM",
-            "condition": "AND",
+            "condition": "OR",
             "proximity_threshold": 0.8
         }
     ],
