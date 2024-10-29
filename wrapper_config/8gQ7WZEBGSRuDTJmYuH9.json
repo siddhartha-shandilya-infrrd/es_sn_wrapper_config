@@ -1,0 +1,33 @@
+{
+    "GEREntity": "Date",
+    "docType": "DECLN",
+    "fieldName": "EXPIRATION_DATE",
+    "carrier": "COMMON",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "\\bPOLICY\\s+(PERIOD|EFFECTIVE)(?::)?\\b",
+                "\\bEXPIRATION(?::)?\\b",
+                "\\bPOLICY\\s+TO(?::)?\\b",
+                "\\bEXP(?::)?\\b",
+                "\\bPOLICY\\s+(TERM|EXPIRATION\\s+DATE)(?::)?\\b",
+                "\\bNON-CONTINIOUS-EXP\\\\s+DATE(?::)?\\b"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "OR"
+        },
+        {
+            "pattern": [
+                "\\bPOLICY\\s+PERIOD(?::)?\\b",
+                "\\bPOLICY\\s+(EXPIRATION|EXP)(?::)?\\b",
+                "\\bEXPIRATION(?::)?\\b",
+                "\\bPOLICY\\s+TO(?::)?\\b"
+            ],
+            "direction": "STRICT_BOTTOM",
+            "condition": "OR"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

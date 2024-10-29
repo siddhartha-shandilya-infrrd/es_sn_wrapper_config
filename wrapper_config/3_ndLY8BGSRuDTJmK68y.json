@@ -1,0 +1,13 @@
+{
+    "fieldName": "DATE_OF_NOTICE",
+    "docType": "COMMON",
+    "carrier": "GEICO_CANCEL",
+    "match": [
+        {
+            "regex": "\\bOne[ ]{0,}GEICO[ ]{0,}Center\\b",
+            "pageNumber": "1",
+            "direction": "Vertical"
+        }
+    ],
+    "not_match": []
+}

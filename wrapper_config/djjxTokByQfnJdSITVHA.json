@@ -1,0 +1,13 @@
+{
+    "fieldName": "POLICY_NUMBER",
+    "docType": "DECLN",
+    "carrier": "ERIE",
+    "match": [
+        {
+            "regex": "(.+)?named\\s*insured",
+            "pageNumber": "1",
+            "direction": "Horizontal"
+        }
+    ],
+    "not_match": []
+}

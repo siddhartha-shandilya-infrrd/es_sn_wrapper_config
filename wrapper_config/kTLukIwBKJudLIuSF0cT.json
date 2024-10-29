@@ -1,0 +1,17 @@
+{
+    "GEREntity": "Custom",
+    "docType": "DECLN",
+    "fieldName": "VIN",
+    "carrier": "PROGRESSIVE",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "\\b\\d{4}\\s+[\\w ]+(?P<VIN>\\w{17})\\b"
+            ],
+            "direction": "TOP"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

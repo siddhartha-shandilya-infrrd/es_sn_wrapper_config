@@ -1,0 +1,23 @@
+{
+    "docType": "DECLN",
+    "carrier": "PROGRESSIVE-4",
+    "fieldName": "EXCLUDED_DRIVERS_NAME_FIRST_NAME",
+    "pageNumber": "2",
+    "flow": "LR",
+    "synonymInDocument": {
+        "dotAll": false,
+        "ignoreCase": false,
+        "pattern_string": "\\n[ ]*(?=\\w)",
+        "fuzzy_tolerance": 0
+    },
+    "regexAllowedChars": "[A-Za-z ]",
+    "length": "variable",
+    "minimumNumberOfLines": "1",
+    "maximumNumberOfLines": "2",
+    "regexLookahead": {
+        "dotAll": false,
+        "ignoreCase": false,
+        "pattern_string": "\\n[ ]*Excluded[ ]*driver[ ]*\\(No[ ]*coverage\\)[ ]*\\n+"
+    },
+    "lookaheadEscape": false
+}

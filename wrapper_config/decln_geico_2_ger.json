@@ -1,0 +1,59 @@
+{
+    "docType": "DELCN",
+    "carrier": "GEICO",
+    "extractorType": "GER",
+    "docFields": [
+        {
+            "fieldId": "0wdZjosBMp7uVTvPwd1s",
+            "fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION"
+        },
+        {
+            "fieldId": "1AdajosBMp7uVTvPK92A",
+            "fieldName": "COMPREHENSIVE_COVERAGE"
+        },
+        {
+            "fieldId": "1gdajosBMp7uVTvPo93Y",
+            "fieldName": "COLLISION_COVERAGE"
+        },
+        {
+            "fieldId": "1wdajosBMp7uVTvP7N3m",
+            "fieldName": "DATE_OF_NOTICE"
+        },
+        {
+            "fieldId": "5zUGtYwBKJudLIuSFBBU",
+            "fieldName": "EFFECTIVE_DATE"
+        },
+        {
+            "fieldId": "hjJ_j4wBKJudLIuSd0c0",
+            "fieldName": "INSURED_ADDRESS_STREET"
+        },
+        {
+            "fieldId": "hzJ_j4wBKJudLIuS8UcU",
+            "fieldName": "INSURED_ADDRESS_ZIP_CODE"
+        },
+        {
+            "fieldId": "hTJ6j4wBKJudLIuSpEdq",
+            "fieldName": "POLICY_NUMBER"
+        },
+        {
+            "fieldId": "kTLukIwBKJudLIuSF0cT",
+            "fieldName": "VIN"
+        },
+        {
+            "fieldId": "J_-HppABGSRuDTJm6wn_",
+            "fieldName": "CHANGE_EFFECTIVE_DATE"
+        },
+        {
+            "fieldId": "Jf8xppABGSRuDTJmaQnr",
+            "fieldName": "VEHICLE_YEAR"
+        },
+        {
+            "fieldId": "yA5v9ZEBGSRuDTJm9JTA",
+            "fieldName": "EXPIRATION_DATE"
+        },
+        {
+            "fieldId": "dwXKepEBGSRuDTJmu_5V",
+            "fieldName": "INSURED_NAME_LAST_NAME_COMPANY_NAME"
+        }
+    ]
+}

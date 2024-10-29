@@ -1,0 +1,20 @@
+{
+    "GEREntity": "PersonName",
+    "docType": "DECLN",
+    "fieldName": "INSURED_NAME_LAST_NAME_COMPANY_NAME",
+    "carrier": "PROGRESSIVE",
+    "pageNumber": [
+        1
+    ],
+    "keywords": [
+        {
+            "pattern": [
+                "Named\\s*insured(:)?"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "AND"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

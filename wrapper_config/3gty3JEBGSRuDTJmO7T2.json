@@ -1,0 +1,25 @@
+{
+    "GEREntity": "Amount",
+    "docType": "DECLN",
+    "fieldName": "COLLISION_COVERAGE",
+    "carrier": "PROGRESSIVE-4",
+    "pageNumber": 2,
+    "keywords": [
+        {
+            "pattern": [
+                "Collision"
+            ],
+            "direction": "BOTTOM",
+            "condition": "AND"
+        },
+        {
+            "pattern": [
+                "Listed\\s*Drivers"
+            ],
+            "direction": "TOP",
+            "condition": "AND"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

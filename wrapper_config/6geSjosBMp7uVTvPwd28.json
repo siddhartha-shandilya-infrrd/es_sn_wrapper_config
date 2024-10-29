@@ -1,0 +1,13 @@
+{
+    "fieldName": "VIN",
+    "pageNumber": "1",
+    "docType": "DECLN",
+    "carrier": "GEICO",
+    "match": [
+        {
+            "regex": "(.+)?model",
+            "direction": "Horizontal"
+        }
+    ],
+    "not_match": []
+}

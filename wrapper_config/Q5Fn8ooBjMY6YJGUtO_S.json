@@ -1,0 +1,25 @@
+{
+    "GEREntity": "Address",
+    "docType": "DECLN",
+    "fieldName": "CARRIER_ADDRESS_STATE",
+    "carrier": "PROGRESSIVE",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "naic\\scompany\\scode"
+            ],
+            "direction": "STRICT_TOP",
+            "condition": "OR"
+        },
+        {
+            "pattern": [
+                "progressive"
+            ],
+            "direction": "STRICT_BOTTOM",
+            "condition": "OR"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

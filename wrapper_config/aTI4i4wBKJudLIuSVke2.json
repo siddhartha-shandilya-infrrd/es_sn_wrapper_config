@@ -1,0 +1,21 @@
+{
+    "GEREntity": "Custom",
+    "docType": "DECLN",
+    "fieldName": "POLICY_NUMBER",
+    "carrier": "GEICO-1",
+    "pageNumber": [
+        1,
+        2,
+        3
+    ],
+    "keywords": [
+        {
+            "pattern": [
+                "\\bpolicy\\s+number(:)?\\s+(?P<PN>\\d{9,11})\\b"
+            ],
+            "direction": "STRICT_RIGHT"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

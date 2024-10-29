@@ -1,0 +1,41 @@
+{
+    "GEREntity": "Date",
+    "docType": "DECLN",
+    "fieldName": "DATE_OF_NOTICE",
+    "carrier": "ALLSTATE",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "Date\\s*[:;]?"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "AND"
+        },
+        {
+            "pattern": [
+                "Information\\s*as\\s*of\\s*[:;]?"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "OR"
+        }
+    ],
+    "negativeKeywords": [
+        {
+            "pattern": [
+                "Expiration",
+                "Effective"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "OR"
+        },
+        {
+            "pattern": [
+                "POLICY\\s+PERIOD"
+            ],
+            "direction": "STRICT_BOTTOM",
+            "condition": "OR"
+        }
+    ],
+    "pageBoundary": {}
+}

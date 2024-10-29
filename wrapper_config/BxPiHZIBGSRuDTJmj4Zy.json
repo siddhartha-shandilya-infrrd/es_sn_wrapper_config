@@ -1,0 +1,23 @@
+{
+    "docType": "DECLN",
+    "carrier": "GEICO",
+    "fieldName": "VEHICLE_YEAR",
+    "pageNumber": "1",
+    "flow": "TB",
+    "synonymInDocument": {
+        "dotAll": false,
+        "ignoreCase": false,
+        "pattern_string": "following[ ]+described[ ]+vehicle(\\(s\\))?"
+    },
+    "regexAllowedChars": "((19[0-9]{2})|(20(1[0-6]{1}|[0-9]{2})))",
+    "length": "1",
+    "minimumNumberOfLines": "1",
+    "maximumNumberOfLines": "1",
+    "regexLookahead": {
+        "dotAll": false,
+        "ignoreCase": false,
+        "pattern_string": "\\s+\\w+"
+    },
+    "lookaheadEscape": false,
+    "groupId": "decln-geico5-letter-main-body"
+}

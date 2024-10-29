@@ -1,0 +1,19 @@
+{
+    "GEREntity": "PersonName",
+    "docType": "COMMON",
+    "fieldName": "INSURED_NAME_FIRST_NAME",
+    "carrier": "GEICO_CANCEL",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "\\bAPPLICANT\\b"
+            ],
+            "direction": "STRICT_BOTTOM",
+            "condition": "AND"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {},
+    "fieldLocation": "Header"
+}

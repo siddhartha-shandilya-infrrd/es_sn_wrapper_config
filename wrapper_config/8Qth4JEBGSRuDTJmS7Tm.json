@@ -1,0 +1,28 @@
+{
+    "GEREntity": "Date",
+    "docType": "DECLN",
+    "fieldName": "CHANGE_EFFECTIVE_DATE",
+    "carrier": "PROGRESSIVE",
+    "pageNumber": [
+        1,
+        2
+    ],
+    "keywords": [
+        {
+            "pattern": [
+                "Effective\\s*date"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "AND"
+        },
+        {
+            "pattern": [
+                "Policy\\s*period"
+            ],
+            "direction": "BOTTOM",
+            "condition": "AND"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

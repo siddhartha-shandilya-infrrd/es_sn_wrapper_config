@@ -1,0 +1,19 @@
+{
+    "docType": "DELCN",
+    "carrier": "GEICO",
+    "extractorType": "KVP",
+    "docFields": [
+        {
+            "fieldId": "pPeVjIsBRg_sYv71t0Xx",
+            "fieldName": "POLICY_NUMBER"
+        },
+        {
+            "fieldId": "rQQNTJEBGSRuDTJmAYDc",
+            "fieldName": "INSURED_NAME_LAST_NAME_COMPANY_NAME"
+        },
+        {
+            "fieldId": "rgQOTJEBGSRuDTJmdYAl",
+            "fieldName": "ALTERNATE_INSURED_NAME_LAST_NAME_COMPANY_NAME"
+        }
+    ]
+}

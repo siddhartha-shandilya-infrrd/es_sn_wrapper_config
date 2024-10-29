@@ -1,0 +1,21 @@
+{
+    "GEREntity": "Custom",
+    "docType": "DECLN",
+    "fieldName": "POLICY_NUMBER",
+    "carrier": "ALLSTATE",
+    "pageNumber": [
+        1,
+        2,
+        3
+    ],
+    "keywords": [
+        {
+            "pattern": [
+                "\\b(?P<PN>\\d{3}\\s*\\d{3}\\s*\\d{3})\\b"
+            ],
+            "direction": "STRICT_RIGHT"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

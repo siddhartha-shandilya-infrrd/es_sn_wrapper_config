@@ -1,0 +1,114 @@
+{
+    "fieldsPriority": [
+        {
+            "fieldName": "VIN",
+            "priorityOrder": [
+                "HEURISTIC",
+                "GER",
+                "NER",
+                "KVP"
+            ]
+        },
+        {
+            "fieldName": "VEHICLE_YEAR",
+            "priorityOrder": [
+                "HEURISTIC",
+                "GER",
+                "NER",
+                "KVP"
+            ]
+        },
+        {
+            "fieldName": "VEHICLE_MAKE",
+            "priorityOrder": [
+                "HEURISTIC",
+                "GER",
+                "NER",
+                "KVP"
+            ]
+        },
+        {
+            "fieldName": "POLICY_NUMBER",
+            "priorityOrder": [
+                "HEURISTIC",
+                "GER",
+                "NER",
+                "KVP"
+            ]
+        },
+        {
+            "fieldName": "DATE_OF_NOTICE",
+            "priorityOrder": [
+                "HEURISTIC",
+                "GER",
+                "NER",
+                "KVP"
+            ]
+        },
+        {
+            "fieldName": "INSURED_NAME_FIRST_NAME",
+            "priorityOrder": [
+                "HEURISTIC",
+                "GER",
+                "NER",
+                "KVP"
+            ]
+        },
+        {
+            "fieldName": "INSURED_NAME_LAST_NAME_COMPANY_NAME",
+            "priorityOrder": [
+                "HEURISTIC",
+                "GER",
+                "NER",
+                "KVP"
+            ]
+        },
+        {
+            "fieldName": "ALTERNATE_INSURED_NAME_FIRST_NAME",
+            "priorityOrder": [
+                "HEURISTIC",
+                "GER",
+                "NER",
+                "KVP"
+            ]
+        },
+        {
+            "fieldName": "ALTERNATE_INSURED_NAME_LAST_NAME_COMPANY_NAME",
+            "priorityOrder": [
+                "HEURISTIC",
+                "GER",
+                "NER",
+                "KVP"
+            ]
+        },
+        {
+            "fieldName": "INSURED_ADDRESS_STREET",
+            "priorityOrder": [
+                "HEURISTIC",
+                "GER",
+                "KVP",
+                "NER",
+                "HEURISTIC"
+            ]
+        },
+        {
+            "fieldName": "INSURED_ADDRESS_ZIP_CODE",
+            "priorityOrder": [
+                "HEURISTIC",
+                "GER",
+                "KVP",
+                "NER",
+                "HEURISTIC"
+            ]
+        },
+        {
+            "fieldName": "DEFAULT",
+            "priorityOrder": [
+                "HEURISTIC",
+                "GER",
+                "KVP",
+                "NER"
+            ]
+        }
+    ]
+}

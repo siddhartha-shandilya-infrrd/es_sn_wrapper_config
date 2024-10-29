@@ -1,0 +1,13 @@
+{
+    "fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION",
+    "pageNumber": "1",
+    "docType": "DECLN",
+    "carrier": "GEICO",
+    "match": [
+        {
+            "regex": "(.+)?collision\\s*deductible",
+            "direction": "Horizontal"
+        }
+    ],
+    "not_match": []
+}

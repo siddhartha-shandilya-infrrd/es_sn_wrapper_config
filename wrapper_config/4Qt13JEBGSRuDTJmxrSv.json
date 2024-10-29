@@ -1,0 +1,25 @@
+{
+    "GEREntity": "Year",
+    "docType": "DECLN",
+    "fieldName": "VEHICLE_YEAR",
+    "carrier": "PROGRESSIVE-4",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "Auto"
+            ],
+            "direction": "STRICT_BOTTOM",
+            "condition": "AND"
+        },
+        {
+            "pattern": [
+                "Policy\\s*Information"
+            ],
+            "direction": "TOP",
+            "condition": "AND"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

@@ -1,0 +1,28 @@
+{
+    "GEREntity": "Address",
+    "docType": "DECLN",
+    "fieldName": "INSURED_ADDRESS_ZIP_CODE",
+    "carrier": "GEICO",
+    "pageNumber": [
+        1,
+        2
+    ],
+    "keywords": [
+        {
+            "pattern": [
+                "Insured"
+            ],
+            "direction": "STRICT_BOTTOM",
+            "condition": "OR"
+        },
+        {
+            "pattern": [
+                "vehicle\\s+year"
+            ],
+            "direction": "STRICT_TOP",
+            "condition": "OR"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}
