@@ -1,0 +1,43 @@
+{
+    "fieldName": "COMPREHENSIVE_COVERAGE",
+    "docType": "DECLN",
+    "carrier": "COMMON",
+    "match": [
+        {
+            "regex": "\\bCOMPREHENSIVE(?::)?\\b",
+            "pageNumber": "1",
+            "direction": "Horizontal"
+        },
+        {
+            "regex": "\\bCOMP(?::)?\\b",
+            "pageNumber": "1",
+            "direction": "Horizontal"
+        },
+        {
+            "regex": "\\bCOMP\\/COLL(?::)?\\b",
+            "pageNumber": "1",
+            "direction": "Horizontal"
+        },
+        {
+            "regex": "\\bCOLL\\/COMP\\b",
+            "pageNumber": "1",
+            "direction": "Horizontal"
+        },
+        {
+            "regex": "\\bOTHER\\s+THAN\\s+COLLISION(?::)?\\b",
+            "pageNumber": "1",
+            "direction": "Horizontal"
+        },
+        {
+            "regex": "\\bCOMPREHENSIVE(?::)?\\b",
+            "pageNumber": "1",
+            "direction": "Horizontal"
+        },
+        {
+            "regex": "\\b(COMPREHENSIVE|COMP)(?::)?\\b",
+            "pageNumber": "1",
+            "direction": "Vertical"
+        }
+    ],
+    "not_match": []
+}

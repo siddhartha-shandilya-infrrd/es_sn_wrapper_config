@@ -1,0 +1,22 @@
+{
+    "GEREntity": "Address",
+    "docType": "DECLN",
+    "fieldName": "INSURED_ADDRESS_ZIP_CODE",
+    "carrier": "PROGRESSIVE",
+    "pageNumber": [
+        1,
+        2,
+        3
+    ],
+    "keywords": [
+        {
+            "pattern": [
+                "address[:]?"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "OR"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

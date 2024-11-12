@@ -1,0 +1,23 @@
+{
+    "fieldName": "INSURED_ADDRESS_STREET",
+    "docType": "DECLN",
+    "carrier": "ALLSTATE",
+    "match": [
+        {
+            "regex": "ADDRESS",
+            "pageNumber": "1",
+            "direction": "Vertical"
+        },
+        {
+            "regex": "POLICYHOLDER",
+            "pageNumber": "1",
+            "direction": "Vertical"
+        },
+        {
+            "regex": "PRODUCER",
+            "pageNumber": "1",
+            "direction": "Vertical"
+        }
+    ],
+    "not_match": []
+}

@@ -1,0 +1,22 @@
+{
+    "docType": "DECLN",
+    "carrier": "ERIE",
+    "fieldName": "COLLISION_COVERAGE",
+    "pageNumber": "1",
+    "flow": "LR",
+    "synonymInDocument": {
+        "dotAll": false,
+        "ignoreCase": false,
+        "pattern_string": "([oO0]ther\\s*[tT]han\\s*[Cc]omprehensive|(?<!([oO0]ther\\s*[tT]han\\s*|Comprehensive\\s*(and|or)))Collision).+(?=(\\$|S)\\d+)"
+    },
+    "regexAllowedChars": "[0-9$,.]",
+    "length": "variable",
+    "minimumNumberOfLines": "1",
+    "maximumNumberOfLines": "1",
+    "regexLookahead": {
+        "dotAll": false,
+        "ignoreCase": false,
+        "pattern_string": "\\n|\\s{3,}|\\s*\\-?deductible"
+    },
+    "lookaheadEscape": false
+}

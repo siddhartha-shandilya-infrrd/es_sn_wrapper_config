@@ -1,0 +1,29 @@
+{
+    "GEREntity": "OrganizationName",
+    "docType": "DECLN",
+    "fieldName": "CARRIER",
+    "carrier": "COMMON",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "DUMMY PATTERN"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "OR",
+            "proximity_threshold": 0.8
+        }
+    ],
+    "negativeKeywords": [
+        {
+            "pattern": [
+                "DUMMY PATTERN",
+                "Service Center"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "OR",
+            "proximity_threshold": 0.8
+        }
+    ],
+    "pageBoundary": {}
+}

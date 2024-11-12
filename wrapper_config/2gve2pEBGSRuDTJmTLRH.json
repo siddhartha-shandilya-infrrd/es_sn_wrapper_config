@@ -1,0 +1,33 @@
+{
+    "fieldName": "VEHICLE_YEAR",
+    "docType": "DECLN",
+    "carrier": "ALLSTATE",
+    "match": [
+        {
+            "regex": "(VEHICLE|VEH)",
+            "pageNumber": "1",
+            "direction": "Horizontal"
+        },
+        {
+            "regex": "ITEM",
+            "pageNumber": "1",
+            "direction": "Vertical"
+        },
+        {
+            "regex": "YEAR(:)?",
+            "pageNumber": "1",
+            "direction": "Horizontal"
+        },
+        {
+            "regex": "YEAR(:)?",
+            "pageNumber": "1",
+            "direction": "Vertical"
+        },
+        {
+            "regex": "\\bNAMED\\sAS\\sLOSS\\sPAYEE\\sFOR\\b",
+            "pageNumber": "1",
+            "direction": "Horizontal"
+        }
+    ],
+    "not_match": []
+}

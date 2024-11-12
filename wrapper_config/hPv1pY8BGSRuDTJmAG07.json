@@ -1,0 +1,23 @@
+{
+    "docType": "COMMON",
+    "carrier": "STATE FARM-2",
+    "fieldName": "DATE_OF_NOTICE",
+    "pageNumber": "1",
+    "fromHeader": true,
+    "flow": "LR",
+    "synonymInDocument": {
+        "dotAll": false,
+        "ignoreCase": false,
+        "pattern_string": "DATE\\s*OF\\s*NOTICE\\s*[:;]?\\s*"
+    },
+    "regexAllowedChars": "[A-Za-z]+\\s*\\d{1,2}\\s*,?\\s*\\d{4}",
+    "length": "variable",
+    "minimumNumberOfLines": "1",
+    "maximumNumberOfLines": "1",
+    "regexLookahead": {
+        "dotAll": false,
+        "ignoreCase": false,
+        "pattern_string": "\\n|\\s{3,}"
+    },
+    "lookaheadEscape": false
+}

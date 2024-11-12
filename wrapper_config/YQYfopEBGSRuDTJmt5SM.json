@@ -1,0 +1,18 @@
+{
+    "GEREntity": "PersonName",
+    "docType": "DECLN",
+    "fieldName": "ALTERNATE_INSURED_NAME_LAST_NAME_COMPANY_NAME",
+    "carrier": "COMMON",
+    "pageNumber": 1,
+    "keywords": [],
+    "negativeKeywords": [
+        {
+            "pattern": [
+                "\\bAGENT(?::)?\\b"
+            ],
+            "direction": "STRICT_BOTTOM",
+            "condition": "OR"
+        }
+    ],
+    "pageBoundary": {}
+}

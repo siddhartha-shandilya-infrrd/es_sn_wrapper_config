@@ -1,0 +1,16 @@
+{
+    "docType": "DECLN",
+    "carrier": "ALLSTATE",
+    "fieldName": "COMPREHENSIVE_COVERAGE",
+    "pageNumber": "1",
+    "flow": "coordinate_based",
+    "configs": [
+        {
+            "pattern": [
+                "\\bComprehensive\\b(\\s+|\\n)"
+            ],
+            "direction": "STRICT_RIGHT",
+            "proximity_threshold": 0.9
+        }
+    ]
+}

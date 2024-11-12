@@ -1,0 +1,18 @@
+{
+    "GEREntity": "Address",
+    "docType": "DECLN",
+    "fieldName": "INSURED_ADDRESS_STREET",
+    "carrier": "GEICO",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "Insured"
+            ],
+            "direction": "BOTTOM",
+            "condition": "AND"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

@@ -1,0 +1,36 @@
+{
+    "GEREntity": "Amount",
+    "docType": "DECLN",
+    "fieldName": "COMPREHENSIVE_COVERAGE",
+    "carrier": "COMMON",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "\\b(COMPREHENSIVE|COMP)(?::)?\\b"
+            ],
+            "direction": "BOTTOM",
+            "condition": "OR"
+        },
+        {
+            "pattern": [
+                "\\bCOMPREHENSIVE(?::)?\\b",
+                "\\bCOMP(?::)?\\b",
+                "\\bCOMP\\/COLL(?::)?\\b",
+                "\\bCOLL\\/COMP\\b",
+                "\\bOTHER\\s+THAN\\s+COLLISION(?::)?\\b"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "OR"
+        },
+        {
+            "pattern": [
+                "\\bCOMPREHENSIVE(?::)?\\b"
+            ],
+            "direction": "STRICT_LEFT",
+            "condition": "OR"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

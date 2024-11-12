@@ -1,0 +1,18 @@
+{
+    "GEREntity": "OrganizationName",
+    "docType": "DECLN",
+    "fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION",
+    "carrier": "GEICO",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "lienholder"
+            ],
+            "direction": "STRICT_BOTTOM",
+            "condition": "AND"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

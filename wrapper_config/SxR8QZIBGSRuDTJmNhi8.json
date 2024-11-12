@@ -1,0 +1,23 @@
+{
+    "docType": "DECLN",
+    "carrier": "COMMON",
+    "fieldName": "VEHICLE_YEAR",
+    "pageNumber": "1",
+    "flow": "coordinate_based",
+    "configs": [
+        {
+            "pattern": [
+                "\\b(Vehicle|Vehide|Watercraft)[;:]?\\b"
+            ],
+            "direction": "STRICT_RIGHT",
+            "proximity_threshold": 0.9
+        }
+    ],
+    "negative_configs": [
+        {
+            "pattern": [],
+            "direction": "STRICT_RIGHT",
+            "proximity_threshold": 0.9
+        }
+    ]
+}

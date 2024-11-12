@@ -1,0 +1,28 @@
+{
+    "GEREntity": "Year",
+    "docType": "DECLN",
+    "fieldName": "VEHICLE_YEAR",
+    "carrier": "GEICO",
+    "pageNumber": [
+        1,
+        2
+    ],
+    "keywords": [
+        {
+            "pattern": [
+                "\\bVehicle\\b"
+            ],
+            "direction": "BOTTOM",
+            "condition": "AND"
+        },
+        {
+            "pattern": [
+                "\\bBodily\\s*Injury\\s*Liability\\b"
+            ],
+            "direction": "TOP",
+            "condition": "AND"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

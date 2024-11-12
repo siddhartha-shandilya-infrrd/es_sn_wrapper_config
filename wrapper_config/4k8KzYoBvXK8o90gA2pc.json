@@ -1,0 +1,23 @@
+{
+    "docType": "DECLN",
+    "carrier": "PROGRESSIVE",
+    "fieldName": "EFFECTIVE_DATE",
+    "pageNumber": "1",
+    "flow": "LR",
+    "synonymInDocument": {
+        "dotAll": false,
+        "ignoreCase": false,
+        "pattern_string": "Policy\\s*[Pp]eriod",
+        "fuzzy_tolerance": 2
+    },
+    "regexAllowedChars": "[0-9A-Za-z, ]",
+    "length": "variable",
+    "minimumNumberOfLines": "1",
+    "maximumNumberOfLines": "1",
+    "regexLookahead": {
+        "dotAll": false,
+        "ignoreCase": false,
+        "pattern_string": "-"
+    },
+    "lookaheadEscape": false
+}

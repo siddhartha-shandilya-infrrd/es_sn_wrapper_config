@@ -1,0 +1,13 @@
+{
+    "fieldName": "INSURED_NAME_FIRST_NAME",
+    "docType": "COMMON",
+    "carrier": "GEICO_CANCEL",
+    "match": [
+        {
+            "regex": "\\bAPPLICANT\\b",
+            "pageNumber": "1",
+            "direction": "Vertical"
+        }
+    ],
+    "not_match": []
+}

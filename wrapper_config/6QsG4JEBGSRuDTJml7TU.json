@@ -1,0 +1,8 @@
+{
+    "docType": "DECLN",
+    "carrier": "PROGRESSIVE-4",
+    "fieldName": "INSURED_ADDRESS_ZIP_CODE",
+    "pageNumber": "1",
+    "finalConfidence": "0.9",
+    "groupId": "decln-progressive-page1-insured-info-with-key"
+}

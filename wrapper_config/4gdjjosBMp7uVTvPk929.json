@@ -1,0 +1,18 @@
+{
+    "docType": "DECLN",
+    "carrier": "GEICO",
+    "fieldName": "EFFECTIVE_DATE",
+    "pageNumber": "1",
+    "flow": "LR",
+    "regexAllowedChars": "[-0-9 ]",
+    "length": "variable",
+    "minimumNumberOfLines": "1",
+    "maximumNumberOfLines": "1",
+    "regexLookahead": {
+        "dotAll": false,
+        "ignoreCase": false,
+        "pattern_string": "through"
+    },
+    "lookaheadEscape": false,
+    "groupId": "decln-geico2-page1-top-right"
+}

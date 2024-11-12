@@ -1,0 +1,33 @@
+{
+    "fieldName": "VEHICLE_MAKE",
+    "docType": "DECLN",
+    "carrier": "ALLSTATE",
+    "match": [
+        {
+            "regex": "VEHICLE",
+            "pageNumber": "1",
+            "direction": "Horizontal"
+        },
+        {
+            "regex": "ITEM",
+            "pageNumber": "1",
+            "direction": "Vertical"
+        },
+        {
+            "regex": "(MAKE|MANUFACTURER)",
+            "pageNumber": "1",
+            "direction": "Vertical"
+        },
+        {
+            "regex": "MODEL\\s+NAME(:)?",
+            "pageNumber": "1",
+            "direction": "Horizontal"
+        },
+        {
+            "regex": "\\bMAKE(?::)?\\b",
+            "pageNumber": "1",
+            "direction": "Horizontal"
+        }
+    ],
+    "not_match": []
+}

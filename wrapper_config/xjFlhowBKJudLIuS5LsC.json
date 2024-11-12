@@ -1,0 +1,23 @@
+{
+    "GEREntity": "Custom",
+    "docType": "DECLN",
+    "fieldName": "VIN",
+    "carrier": "PROGRESSIVE",
+    "pageNumber": [
+        1,
+        2,
+        3
+    ],
+    "keywords": [
+        {
+            "pattern": [
+                "\\b(vehi(cl|d)?e|hull)\\s+identification\\s+number\\s*[:]?[\\s.]+(?P<VIN>\\w[\\w ]{16,18}+\\b)",
+                "\\(VIN:\\s+(?P<VIN>\\w{17})\\)",
+                "\\bvin\\s*(:)?\\s*(?P<VIN>\\w{16,18})\\b"
+            ],
+            "direction": "STRICT_RIGHT"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

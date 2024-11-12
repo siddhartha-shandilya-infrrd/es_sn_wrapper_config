@@ -1,0 +1,22 @@
+{
+    "GEREntity": "PersonName",
+    "docType": "DECLN",
+    "fieldName": "ALTERNATE_INSURED_NAME_LAST_NAME_COMPANY_NAME",
+    "carrier": "PROGRESSIVE",
+    "pageNumber": [
+        1,
+        2,
+        3
+    ],
+    "keywords": [
+        {
+            "pattern": [
+                "(Policyholder(s)?|Policyholdet(s)?)[:;\\.\\,]?"
+            ],
+            "direction": "STRICT_BOTTOM",
+            "condition": "AND"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

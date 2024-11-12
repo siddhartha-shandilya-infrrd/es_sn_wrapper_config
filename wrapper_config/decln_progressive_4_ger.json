@@ -1,0 +1,59 @@
+{
+    "docType": "DECLN",
+    "carrier": "PROGRESSIVE",
+    "extractorType": "GER",
+    "docFields": [
+        {
+            "fieldId": "3Qtx3JEBGSRuDTJma7Ra",
+            "fieldName": "COLLISION_COVERAGE"
+        },
+        {
+            "fieldId": "3gty3JEBGSRuDTJmO7T2",
+            "fieldName": "COMPREHENSIVE_COVERAGE"
+        },
+        {
+            "fieldId": "4At03JEBGSRuDTJmmrS1",
+            "fieldName": "EFFECTIVE_DATE"
+        },
+        {
+            "fieldId": "xw6585EBGSRuDTJmYZQv",
+            "fieldName": "EXPIRATION_DATE"
+        },
+        {
+            "fieldId": "8wsG4pEBGSRuDTJm8LQt",
+            "fieldName": "DATE_OF_NOTICE"
+        },
+        {
+            "fieldId": "5wvn35EBGSRuDTJmsbSL",
+            "fieldName": "CHANGE_EFFECTIVE_DATE"
+        },
+        {
+            "fieldId": "4gt43JEBGSRuDTJm3bRo",
+            "fieldName": "INSURED_NAME_LAST_NAME_COMPANY_NAME"
+        },
+        {
+            "fieldId": "IxSvZpIBGSRuDTJmf9sF",
+            "fieldName": "ALTERNATE_INSURED_NAME_LAST_NAME_COMPANY_NAME"
+        },
+        {
+            "fieldId": "3wtz3JEBGSRuDTJmy7Td",
+            "fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION"
+        },
+        {
+            "fieldId": "xjFlhowBKJudLIuS5LsC",
+            "fieldName": "VIN"
+        },
+        {
+            "fieldId": "4Qt13JEBGSRuDTJmxrSv",
+            "fieldName": "VEHICLE_YEAR"
+        },
+        {
+            "fieldId": "aTI4i4wBKJudLIuSVke2",
+            "fieldName": "POLICY_NUMBER"
+        },
+        {
+            "fieldId": "lBXulJIBGSRuDTJmT74w",
+            "fieldName": "CARRIER"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "fieldName": "VIN",
+    "docType": "DECLN",
+    "carrier": "ALLSTATE",
+    "match": [
+        {
+            "regex": "(VIN|VEHICLE\\s+IDENTIFICATION\\s+NUMBER)",
+            "pageNumber": "1",
+            "direction": "Vertical"
+        },
+        {
+            "regex": "(VIN|VEHICLE\\s+IDENTIFICATION\\s+NUMBER)",
+            "pageNumber": "1",
+            "direction": "Horizontal"
+        },
+        {
+            "regex": "VEHICLE",
+            "pageNumber": "1",
+            "direction": "Horizontal"
+        }
+    ],
+    "not_match": []
+}

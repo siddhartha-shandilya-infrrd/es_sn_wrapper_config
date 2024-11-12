@@ -1,0 +1,13 @@
+{
+    "fieldName": "POLICY_NUMBER",
+    "docType": "COMMON",
+    "carrier": "STATE FARM-2",
+    "match": [
+        {
+            "regex": "\\bPOLICY[ ]{0,}NO(:)?\\b",
+            "pageNumber": "1",
+            "direction": "Horizontal"
+        }
+    ],
+    "not_match": []
+}

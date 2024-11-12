@@ -1,0 +1,32 @@
+{
+    "GEREntity": "OrganizationName",
+    "docType": "DECLN",
+    "fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION",
+    "carrier": "GEICO",
+    "pageNumber": [
+        1,
+        2
+    ],
+    "keywords": [
+        {
+            "pattern": [
+                "\\b(x)?lienholder(/loss\\spayee)?"
+            ],
+            "direction": "STRICT_BOTTOM",
+            "condition": "AND"
+        }
+    ],
+    "negativeKeywords": [
+        {
+            "pattern": [
+                "VERIFICATION\\s*OF\\s*COVERAGE\\s*AS"
+            ],
+            "direction": "TOP",
+            "condition": "AND"
+        }
+    ],
+    "pageBoundary": {
+        "startY": 30,
+        "endX": 50
+    }
+}
