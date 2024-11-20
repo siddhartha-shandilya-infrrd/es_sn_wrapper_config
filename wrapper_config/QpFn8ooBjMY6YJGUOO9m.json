@@ -1,0 +1,18 @@
+{
+    "GEREntity": "Address",
+    "docType": "DECLN",
+    "fieldName": "CARRIER_ADDRESS_STREET",
+    "carrier": "PROGRESSIVE",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "progressive"
+            ],
+            "direction": "STRICT_BOTTOM",
+            "condition": "OR"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

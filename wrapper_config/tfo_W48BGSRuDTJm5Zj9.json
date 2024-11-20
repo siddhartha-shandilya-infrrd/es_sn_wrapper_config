@@ -1,0 +1,12 @@
+{
+    "fieldName": "REINSTATEMENT_DATE",
+    "docType": "COMMON",
+    "carrier": "FIRST_ACCEPTANCE",
+    "match": [
+        {
+            "regex": "(.+)?policy",
+            "pageNumber": "1",
+            "direction": "Horizontal"
+        }
+    ]
+}

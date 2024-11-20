@@ -1,0 +1,33 @@
+{
+    "GEREntity": "Amount",
+    "docType": "DECLN",
+    "fieldName": "COMPREHENSIVE_COVERAGE",
+    "carrier": "ALLSTATE",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "comprehensive"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "AND",
+            "proximity_threshold": 0.9
+        },
+        {
+            "pattern": [
+                "Deductible"
+            ],
+            "direction": "BOTTOM",
+            "condition": "OR"
+        }
+    ],
+    "negativeKeywords": [
+        {
+            "pattern": [
+                "COLLISION"
+            ],
+            "direction": "STRICT_RIGHT"
+        }
+    ],
+    "pageBoundary": {}
+}

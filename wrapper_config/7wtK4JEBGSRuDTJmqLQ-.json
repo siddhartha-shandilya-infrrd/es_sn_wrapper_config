@@ -1,0 +1,38 @@
+{
+    "fieldName": "EXPIRATION_DATE",
+    "docType": "DECLN",
+    "carrier": "ALLSTATE",
+    "match": [
+        {
+            "regex": "POLICY\\s+PERIOD",
+            "pageNumber": "1",
+            "direction": "Horizontal"
+        },
+        {
+            "regex": "POLICY\\s+PERIOD",
+            "pageNumber": "1",
+            "direction": "Vertical"
+        },
+        {
+            "regex": "EXPIRATION\\s+(DATE)?",
+            "pageNumber": "1",
+            "direction": "Vertical"
+        },
+        {
+            "regex": "POLICY\\s+NUMBER",
+            "pageNumber": "1",
+            "direction": "Vertical"
+        },
+        {
+            "regex": "POLICYHOLDER",
+            "pageNumber": "1",
+            "direction": "Vertical"
+        },
+        {
+            "regex": "EFFECTIVE\\s+DATE",
+            "pageNumber": "1",
+            "direction": "Vertical"
+        }
+    ],
+    "not_match": []
+}

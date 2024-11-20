@@ -1,0 +1,13 @@
+{
+    "fieldName": "COMPREHENSIVE_COVERAGE",
+    "pageNumber": "1",
+    "docType": "DECLN",
+    "carrier": "ERIE",
+    "match": [
+        {
+            "regex": "(.+)?comprehensive",
+            "direction": "Horizontal"
+        }
+    ],
+    "not_match": []
+}

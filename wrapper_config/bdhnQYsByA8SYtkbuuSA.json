@@ -1,0 +1,18 @@
+{
+    "GEREntity": "Date",
+    "docType": "DECLN",
+    "fieldName": "EXPIRATION_DATE",
+    "carrier": "PROGRESSIVE",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "policy\\speriod"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "AND"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

@@ -1,0 +1,32 @@
+{
+    "docType": "DECLN",
+    "carrier": "GEICO",
+    "fieldName": "VEHICLE_MAKE",
+    "pageNumber": "1",
+    "flow": "TB",
+    "synonymInDocument": {
+        "dotAll": false,
+        "ignoreCase": false,
+        "pattern_string": "following[ ]+described[ ]+vehicle(\\(s\\))?"
+    },
+    "regexAllowedChars": "[A-Za-z ]",
+    "length": "variable",
+    "minimumNumberOfLines": "1",
+    "maximumNumberOfLines": "1",
+    "regexLookbehind": {
+        "dotAll": false,
+        "ignoreCase": false,
+        "pattern_string": {
+            "dotAll": false,
+            "ignoreCase": false,
+            "pattern_string": "((19[0-9]{2})|(20(1[0-6]{1}|[0-9]{2})))\\b"
+        }
+    },
+    "regexLookahead": {
+        "dotAll": false,
+        "ignoreCase": false,
+        "pattern_string": "[A-Z0-9]{17}"
+    },
+    "lookaheadEscape": false,
+    "groupId": "decln-geico5-letter-main-body"
+}

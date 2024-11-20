@@ -1,0 +1,35 @@
+{
+    "non_list_ntp_flow_env_vars": {
+        "DECLN_NTP_FLOW": true,
+        "NON_LIST_NTP_CARRIERS": [
+            "ALLSTATE",
+            "ERIE",
+            "PROGRESSIVE",
+            "GEICO",
+            "PROGRESSIVE-1",
+            "PROGRESSIVE-2",
+            "PROGRESSIVE-3",
+            "PROGRESSIVE-4",
+            "GEICO-1",
+            "GEICO-2",
+            "GEICO-3",
+            "GEICO-5",
+            "COMMON"
+        ],
+        "NON_LIST_NTP_CARRIERS_FORCE_STOP": {
+            "ALLSTATE": true,
+            "ERIE": false,
+            "PROGRESSIVE": true,
+            "GEICO": true,
+            "PROGRESSIVE-1": false,
+            "PROGRESSIVE-2": false,
+            "PROGRESSIVE-3": true,
+            "PROGRESSIVE-4": true,
+            "GEICO-1": false,
+            "GEICO-2": false,
+            "GEICO-3": true,
+            "GEICO-5": true,
+            "COMMON": true
+        }
+    }
+}

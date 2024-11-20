@@ -1,0 +1,18 @@
+{
+    "GEREntity": "Address",
+    "docType": "DECLN",
+    "fieldName": "INSURED_ADDRESS_ZIP_CODE",
+    "carrier": "ERIE",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "named\\sinsured"
+            ],
+            "direction": "STRICT_BOTTOM",
+            "condition": "AND"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

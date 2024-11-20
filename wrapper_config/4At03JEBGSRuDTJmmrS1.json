@@ -1,0 +1,26 @@
+{
+    "GEREntity": "Date",
+    "docType": "DECLN",
+    "fieldName": "EFFECTIVE_DATE",
+    "carrier": "ERIE",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "Policy\\s*period"
+            ],
+            "direction": "BOTTOM",
+            "condition": "AND"
+        },
+        {
+            "pattern": [
+                "Named\\s*insured",
+                "Contact"
+            ],
+            "direction": "TOP",
+            "condition": "AND"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

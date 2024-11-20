@@ -1,0 +1,22 @@
+{
+    "GEREntity": "Date",
+    "docType": "DECLN",
+    "fieldName": "EFFECTIVE_DATE",
+    "carrier": "PROGRESSIVE",
+    "pageNumber": [
+        1,
+        2
+    ],
+    "keywords": [
+        {
+            "pattern": [
+                "(?<=\\n)\\s*Policy\\s*period[;:\\.\\-]?"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "AND",
+            "proximity_threshold": 0.5
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

@@ -1,0 +1,22 @@
+{
+    "docType": "DECLN",
+    "carrier": "PROGRESSIVE-4",
+    "fieldName": "POLICY_NUMBER",
+    "pageNumber": "1",
+    "flow": "LR",
+    "synonymInDocument": {
+        "dotAll": false,
+        "ignoreCase": false,
+        "pattern_string": "\\n[ ]*Policy\\s*[Nn]umber[ ]*\\n[ ]*(?=\\d+)"
+    },
+    "regexAllowedChars": "[0-9 ]",
+    "length": "variable",
+    "minimumNumberOfLines": "1",
+    "maximumNumberOfLines": "1",
+    "regexLookahead": {
+        "dotAll": false,
+        "ignoreCase": false,
+        "pattern_string": "[ ]*\\n{0,3}[ ]*(Auto|Watercraft|Motorcycle)[ ]*add[ ]*date"
+    },
+    "lookaheadEscape": false
+}

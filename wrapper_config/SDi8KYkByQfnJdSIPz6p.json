@@ -1,0 +1,28 @@
+{
+    "fieldName": "EFFECTIVE_DATE",
+    "docType": "DECLN",
+    "carrier": "ALLSTATE",
+    "match": [
+        {
+            "regex": "EFFECTIVE\\s+DATE",
+            "pageNumber": "1",
+            "direction": "Vertical"
+        },
+        {
+            "regex": "(.+)?policy\\s*period",
+            "pageNumber": "1",
+            "direction": "Horizontal"
+        },
+        {
+            "regex": "(.+)?beginning",
+            "pageNumber": "1",
+            "direction": "Horizontal"
+        },
+        {
+            "regex": "POLICYHOLDER",
+            "pageNumber": "1",
+            "direction": "Vertical"
+        }
+    ],
+    "not_match": []
+}

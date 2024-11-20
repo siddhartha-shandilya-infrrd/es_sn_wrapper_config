@@ -1,0 +1,22 @@
+{
+    "docType": "COMMON",
+    "carrier": "STATE FARM-2",
+    "fieldName": "CANCELLATION_DATE",
+    "pageNumber": "1",
+    "flow": "LR",
+    "synonymInDocument": {
+        "dotAll": false,
+        "ignoreCase": false,
+        "pattern_string": "TERMINATED[ ]{1,}EFFECTIVE"
+    },
+    "regexAllowedChars": "[0-9A-Za-z ,]",
+    "length": "variable",
+    "minimumNumberOfLines": "1",
+    "maximumNumberOfLines": "1",
+    "regexLookahead": {
+        "dotAll": false,
+        "ignoreCase": false,
+        "pattern_string": "(\\n|\\s{1,})"
+    },
+    "lookaheadEscape": false
+}

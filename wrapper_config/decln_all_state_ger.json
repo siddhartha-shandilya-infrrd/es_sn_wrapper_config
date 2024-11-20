@@ -1,0 +1,67 @@
+{
+    "docType": "DECLN",
+    "carrier": "ALLSTATE",
+    "extractorType": "GER",
+    "docFields": [
+        {
+            "fieldId": "PlfqP4kB_ru_qMuT0KRz",
+            "fieldName": "COLLISION_COVERAGE"
+        },
+        {
+            "fieldId": "P1cHRYkB_ru_qMuTu6Qq",
+            "fieldName": "EFFECTIVE_DATE"
+        },
+        {
+            "fieldId": "wTkPi4kByQfnJdSIPyor",
+            "fieldName": "INSURED_ADDRESS_STREET"
+        },
+        {
+            "fieldId": "9DlBi4kByQfnJdSIfCpS",
+            "fieldName": "COMPREHENSIVE_COVERAGE"
+        },
+        {
+            "fieldId": "9TlSi4kByQfnJdSIWCrL",
+            "fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION"
+        },
+        {
+            "fieldId": "1To5l4kByQfnJdSIjxLd",
+            "fieldName": "DATE_OF_NOTICE"
+        },
+        {
+            "fieldId": "Oy7UHowBKJudLIuSWtDd",
+            "fieldName": "INSURED_ADDRESS_ZIP_CODE"
+        },
+        {
+            "fieldId": "hgwM5ZEBGSRuDTJmT5lv",
+            "fieldName": "VEHICLE_YEAR"
+        },
+        {
+            "fieldId": "hwwM5ZEBGSRuDTJm_Znj",
+            "fieldName": "CHANGE_EFFECTIVE_DATE"
+        },
+        {
+            "fieldId": "Kf-PppABGSRuDTJmGwng",
+            "fieldName": "PHYSICAL_DAMAGE_COVERAGE"
+        },
+        {
+            "fieldId": "FADx2pABGSRuDTJmqULi",
+            "fieldName": "EXPIRATION_DATE"
+        },
+        {
+            "fieldId": "TBQTcZIBGSRuDTJmE9wA",
+            "fieldName": "INSURED_NAME_LAST_NAME_COMPANY_NAME"
+        },
+        {
+            "fieldId": "TRQTcZIBGSRuDTJmz9xV",
+            "fieldName": "ALTERNATE_INSURED_NAME_LAST_NAME_COMPANY_NAME"
+        },
+        {
+            "fieldId": "iAwN5ZEBGSRuDTJmhJkj",
+            "fieldName": "POLICY_NUMBER"
+        },
+        {
+            "fieldId": "lBXulJIBGSRuDTJmT74w",
+            "fieldName": "CARRIER"
+        }
+    ]
+}

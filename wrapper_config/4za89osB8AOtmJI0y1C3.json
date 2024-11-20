@@ -1,0 +1,33 @@
+{
+    "GEREntity": "Amount",
+    "docType": "DECLN",
+    "fieldName": "COLLISION_COVERAGE",
+    "carrier": "PROGRESSIVE",
+    "pageNumber": 2,
+    "keywords": [
+        {
+            "pattern": [
+                "collision\\s+actual"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "AND"
+        },
+        {
+            "pattern": [
+                "deductible"
+            ],
+            "direction": "RIGHT",
+            "condition": "AND"
+        }
+    ],
+    "negativeKeywords": [
+        {
+            "pattern": [
+                "comprehensive"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "OR"
+        }
+    ],
+    "pageBoundary": {}
+}

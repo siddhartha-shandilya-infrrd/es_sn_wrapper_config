@@ -1,0 +1,27 @@
+{
+    "GEREntity": "Date",
+    "docType": "DECLN",
+    "fieldName": "CHANGE_EFFECTIVE_DATE",
+    "carrier": "PROGRESSIVE-4",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "auto\\s*add\\s*date",
+                "Policy\\s*number"
+            ],
+            "direction": "BOTTOM",
+            "condition": "AND"
+        },
+        {
+            "pattern": [
+                "Policy\\s*period",
+                "Policy\\s*status"
+            ],
+            "direction": "TOP",
+            "condition": "AND"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

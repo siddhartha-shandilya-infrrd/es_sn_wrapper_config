@@ -1,0 +1,37 @@
+{
+    "docType": "DECLN",
+    "carrier": "COMMON",
+    "fieldName": "VEHICLE_YEAR",
+    "pageNumber": "1",
+    "flow": "coordinate_based",
+    "configs": [
+        {
+            "pattern": [
+                "\\bLienholder\\s*information[;:]?\\b"
+            ],
+            "direction": "BOTTOM",
+            "proximity_threshold": 0.2
+        },
+        {
+            "pattern": [
+                "(?<=\\n)[ ]*(Vehicle|Vehide|Watercraft)[;:]?\\b"
+            ],
+            "direction": "BOTTOM",
+            "proximity_threshold": 0.2
+        },
+        {
+            "pattern": [
+                "(?<=\\n)[ ]*Outline\\s*of\\s*coverage[;:]?\\b"
+            ],
+            "direction": "BOTTOM",
+            "proximity_threshold": 0.2
+        }
+    ],
+    "negative_configs": [
+        {
+            "pattern": [],
+            "direction": "STRICT_RIGHT",
+            "proximity_threshold": 0.9
+        }
+    ]
+}

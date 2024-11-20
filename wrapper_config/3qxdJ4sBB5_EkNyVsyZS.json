@@ -1,0 +1,26 @@
+{
+    "GEREntity": "Amount",
+    "docType": "DECLN",
+    "fieldName": "COLLISION_COVERAGE",
+    "carrier": "ERIE",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "collision"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "AND"
+        }
+    ],
+    "negativeKeywords": [
+        {
+            "pattern": [
+                "Comprehensive"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "AND"
+        }
+    ],
+    "pageBoundary": {}
+}

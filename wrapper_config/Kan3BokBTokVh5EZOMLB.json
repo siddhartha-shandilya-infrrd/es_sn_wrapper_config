@@ -1,0 +1,20 @@
+{
+    "GEREntity": "Date",
+    "docType": "DECLN",
+    "fieldName": "DATE_OF_NOTICE",
+    "carrier": "ALLSTATE",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "date:"
+            ],
+            "direction": "Right",
+            "condition": "OR"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {
+        "startY": "70"
+    }
+}

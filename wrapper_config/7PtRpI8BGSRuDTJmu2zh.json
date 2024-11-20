@@ -1,0 +1,22 @@
+{
+    "docType": "COMMON",
+    "carrier": "STATE FARM-2",
+    "fieldName": "VEHICLE_YEAR",
+    "pageNumber": "1",
+    "flow": "LR",
+    "synonymInDocument": {
+        "dotAll": false,
+        "ignoreCase": false,
+        "pattern_string": "YEAR\\s*[:;]?\\s*"
+    },
+    "regexAllowedChars": "[0-9]",
+    "length": "variable",
+    "minimumNumberOfLines": "1",
+    "maximumNumberOfLines": "1",
+    "regexLookahead": {
+        "dotAll": false,
+        "ignoreCase": false,
+        "pattern_string": "\\n|\\s{3,}"
+    },
+    "lookaheadEscape": false
+}

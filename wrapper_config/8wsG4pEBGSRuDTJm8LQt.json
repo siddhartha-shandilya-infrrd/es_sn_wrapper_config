@@ -1,0 +1,29 @@
+{
+    "GEREntity": "Date",
+    "docType": "DECLN",
+    "fieldName": "DATE_OF_NOTICE",
+    "carrier": "PROGRESSIVE-3",
+    "pageNumber": [
+        1,
+        2,
+        3
+    ],
+    "keywords": [
+        {
+            "pattern": [
+                "Vehicle\\s*Lookup"
+            ],
+            "direction": "LEFT",
+            "condition": "AND"
+        },
+        {
+            "pattern": [
+                "Policy\\s*Information"
+            ],
+            "direction": "TOP",
+            "condition": "AND"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

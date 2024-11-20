@@ -1,0 +1,18 @@
+{
+    "GEREntity": "Date",
+    "docType": "COMMON",
+    "fieldName": "EFFECTIVE_DATE",
+    "carrier": "STATE FARM-2",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "POLICY[ ]{0,}EFFECTIVE"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "AND"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

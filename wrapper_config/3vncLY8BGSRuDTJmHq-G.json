@@ -1,0 +1,13 @@
+{
+    "fieldName": "ALTERNATE_INSURED_NAME_LAST_NAME_COMPANY_NAME",
+    "docType": "COMMON",
+    "carrier": "GEICO_CANCEL",
+    "match": [
+        {
+            "regex": "\\bCO(-)?INSURED\\b",
+            "pageNumber": "1",
+            "direction": "Vertical"
+        }
+    ],
+    "not_match": []
+}

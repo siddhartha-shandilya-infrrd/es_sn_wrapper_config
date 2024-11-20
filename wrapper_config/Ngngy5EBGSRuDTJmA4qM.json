@@ -1,0 +1,22 @@
+{
+    "docType": "DECLN",
+    "carrier": "GEICO",
+    "fieldName": "COMPREHENSIVE_COVERAGE",
+    "pageNumber": "1",
+    "flow": "LR",
+    "synonymInDocument": {
+        "dotAll": false,
+        "ignoreCase": false,
+        "pattern_string": "(\\n|ACTUAL[ ]*CASH[ ]*VALUE)[ ]*COMPREHENSIVE[ ]*\\/[ ]*COLLISION[ ]DEDUCTIBLES\\s+?(?=(\\$|S)\\d+)"
+    },
+    "regexAllowedChars": "[0-9$,\\.]",
+    "length": "variable",
+    "minimumNumberOfLines": "1",
+    "maximumNumberOfLines": "1",
+    "regexLookahead": {
+        "dotAll": false,
+        "ignoreCase": false,
+        "pattern_string": "[ ]*\\/[ ]*\\$[ ]{0,3}[0-9,\\.]{3,9}[ ]*\\n"
+    },
+    "lookaheadEscape": false
+}

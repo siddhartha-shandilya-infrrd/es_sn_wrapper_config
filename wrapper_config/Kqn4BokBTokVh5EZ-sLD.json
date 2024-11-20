@@ -1,0 +1,18 @@
+{
+    "GEREntity": "Date",
+    "docType": "DECLN",
+    "fieldName": "EFFECTIVE_DATE",
+    "carrier": "ALLSTATE",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "effective\\s*date"
+            ],
+            "direction": "Bottom",
+            "condition": "OR"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

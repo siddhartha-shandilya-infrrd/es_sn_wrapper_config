@@ -1,0 +1,28 @@
+{
+    "fieldName": "INSURED_ADDRESS_ZIP_CODE",
+    "pageNumber": "1",
+    "docType": "DECLN",
+    "carrier": "ALLSTATE",
+    "match": [
+        {
+            "regex": "(.+)?named\\sinsured",
+            "direction": "Vertical"
+        },
+        {
+            "regex": "ZIP\\s+CODE",
+            "pageNumber": "1",
+            "direction": "Vertical"
+        },
+        {
+            "regex": "ADDRESS",
+            "pageNumber": "1",
+            "direction": "Vertical"
+        },
+        {
+            "regex": "POLICYHOLDER",
+            "pageNumber": "1",
+            "direction": "Vertical"
+        }
+    ],
+    "not_match": []
+}

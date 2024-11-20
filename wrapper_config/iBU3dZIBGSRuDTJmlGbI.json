@@ -1,0 +1,23 @@
+{
+    "GEREntity": "PersonName",
+    "docType": "DECLN",
+    "fieldName": "INSURED_NAME_LAST_NAME_COMPANY_NAME",
+    "carrier": "PROGRESSIVE",
+    "pageNumber": [
+        1,
+        2,
+        3
+    ],
+    "keywords": [
+        {
+            "pattern": [
+                "MAILING ADDRESS [:;\\.\\,]?"
+            ],
+            "direction": "BOTTOM_RIGHT",
+            "condition": "AND",
+            "proximity_threshold": 0.2
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

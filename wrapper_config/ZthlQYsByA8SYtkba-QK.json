@@ -1,0 +1,40 @@
+{
+    "GEREntity": "Amount",
+    "docType": "DECLN",
+    "fieldName": "COMPREHENSIVE_COVERAGE",
+    "carrier": "PROGRESSIVE",
+    "pageNumber": [
+        1,
+        2,
+        3
+    ],
+    "keywords": [
+        {
+            "pattern": [
+                "comprehensive"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "AND",
+            "proximity_threshold": 0.8
+        },
+        {
+            "pattern": [
+                "deductible(:)?"
+            ],
+            "direction": "STRICT_BOTTOM",
+            "condition": "AND"
+        }
+    ],
+    "negativeKeywords": [
+        {
+            "pattern": [
+                "collision",
+                "other\\s*than\\s*comprehensive"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "AND",
+            "proximity_threshold": 0.8
+        }
+    ],
+    "pageBoundary": {}
+}

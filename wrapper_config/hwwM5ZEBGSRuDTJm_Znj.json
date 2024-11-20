@@ -1,0 +1,36 @@
+{
+    "GEREntity": "Date",
+    "docType": "DECLN",
+    "fieldName": "CHANGE_EFFECTIVE_DATE",
+    "carrier": "ALLSTATE",
+    "pageNumber": [
+        1,
+        2
+    ],
+    "keywords": [
+        {
+            "pattern": [
+                "Effective\\s*date\\s*of\\s*certificate(:)?"
+            ],
+            "direction": "STRICT_BOTTOM",
+            "condition": "AND",
+            "proximity_threshold": 0.1
+        }
+    ],
+    "negativeKeywords": [
+        {
+            "pattern": [
+                "(COVERAGE)?\\s+EFFECTIVE\\s+DATE",
+                "Expiration\\s*Date"
+            ],
+            "direction": "STRICT_RIGHT"
+        },
+        {
+            "pattern": [
+                "Policyholder"
+            ],
+            "direction": "STRICT_BOTTOM"
+        }
+    ],
+    "pageBoundary": {}
+}

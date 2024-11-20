@@ -1,0 +1,29 @@
+{
+    "GEREntity": "Date",
+    "docType": "DECLN",
+    "fieldName": "EFFECTIVE_DATE",
+    "carrier": "ERIE",
+    "pageNumber": [
+        1
+    ],
+    "keywords": [
+        {
+            "pattern": [
+                "COVERAGE\\s+PERIOD"
+            ],
+            "direction": "STRICT_BOTTOM",
+            "condition": "AND"
+        }
+    ],
+    "negativeKeywords": [
+        {
+            "pattern": [
+                "DATE\\s+ISSUED(?::)?",
+                "ENDORESEMENT\\s+EFFECTIVE(?::)?"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "OR"
+        }
+    ],
+    "pageBoundary": {}
+}

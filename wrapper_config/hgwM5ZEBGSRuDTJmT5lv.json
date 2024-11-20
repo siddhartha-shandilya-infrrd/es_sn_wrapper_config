@@ -1,0 +1,36 @@
+{
+    "GEREntity": "Year",
+    "docType": "DECLN",
+    "fieldName": "VEHICLE_YEAR",
+    "carrier": "ALLSTATE",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "ITEM",
+                "\\bYEAR\\b"
+            ],
+            "direction": "STRICT_BOTTOM",
+            "condition": "OR"
+        },
+        {
+            "pattern": [
+                "\\bVEHICLE\\b",
+                "\\bYEAR\\b"
+            ],
+            "direction": "STRICT_BOTTOM",
+            "condition": "OR"
+        }
+    ],
+    "negativeKeywords": [
+        {
+            "pattern": [
+                "EXPIRATION",
+                "EFFECTIVE"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "OR"
+        }
+    ],
+    "pageBoundary": {}
+}

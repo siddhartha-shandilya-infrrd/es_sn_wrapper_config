@@ -1,0 +1,146 @@
+{
+    "fieldsPriority": [
+        {
+            "fieldName": "POLICY_NUMBER",
+            "priorityOrder": [
+                "NER",
+                "HEURISTIC",
+                "KVP",
+                "GER"
+            ]
+        },
+        {
+            "fieldName": "VIN",
+            "priorityOrder": [
+                "HEURISTIC",
+                "NER",
+                "KVP",
+                "GER"
+            ]
+        },
+        {
+            "fieldName": "EFFECTIVE_DATE",
+            "priorityOrder": [
+                "GER",
+                "HEURISTIC",
+                "NER",
+                "KVP"
+            ]
+        },
+        {
+            "fieldName": "COLLISION_COVERAGE",
+            "priorityOrder": [
+                "HEURISTIC",
+                "GER",
+                "NER"
+            ]
+        },
+        {
+            "fieldName": "COMPREHENSIVE_COVERAGE",
+            "priorityOrder": [
+                "HEURISTIC",
+                "GER",
+                "NER"
+            ]
+        },
+        {
+            "fieldName": "DATE_OF_NOTICE",
+            "priorityOrder": [
+                "HEURISTIC",
+                "NER",
+                "GER",
+                "KVP"
+            ]
+        },
+        {
+            "fieldName": "INSURED_ADDRESS_STREET",
+            "priorityOrder": [
+                "HEURISTIC",
+                "NER",
+                "GER",
+                "KVP"
+            ]
+        },
+        {
+            "fieldName": "INSURED_ADDRESS_ZIP_CODE",
+            "priorityOrder": [
+                "HEURISTIC",
+                "NER",
+                "GER",
+                "KVP"
+            ]
+        },
+        {
+            "fieldName": "LENDER_LISTED_AS_LIENHOLDER_DESCRIPTION",
+            "priorityOrder": [
+                "HEURISTIC",
+                "NER",
+                "GER",
+                "KVP"
+            ]
+        },
+        {
+            "fieldName": "VEHICLE_YEAR",
+            "priorityOrder": [
+                "HEURISTIC",
+                "NER",
+                "GER",
+                "KVP"
+            ]
+        },
+        {
+            "fieldName": "VEHICLE_MAKE",
+            "priorityOrder": [
+                "NER",
+                "HEURISTIC",
+                "GER",
+                "KVP"
+            ]
+        },
+        {
+            "fieldName": "CHANGE_EFFECTIVE_DATE",
+            "priorityOrder": [
+                "HEURISTIC",
+                "NER",
+                "GER",
+                "KVP"
+            ]
+        },
+        {
+            "fieldName": "INSURED_NAME_LAST_NAME_COMPANY_NAME",
+            "priorityOrder": [
+                "HEURISTIC",
+                "NER",
+                "GER",
+                "KVP"
+            ]
+        },
+        {
+            "fieldName": "ALTERNATE_INSURED_NAME_LAST_NAME_COMPANY_NAME",
+            "priorityOrder": [
+                "HEURISTIC",
+                "NER",
+                "GER",
+                "KVP"
+            ]
+        },
+        {
+            "fieldName": "EXPIRATION_DATE",
+            "priorityOrder": [
+                "HEURISTIC",
+                "GER",
+                "NER",
+                "KVP"
+            ]
+        },
+        {
+            "fieldName": "DEFAULT",
+            "priorityOrder": [
+                "HEURISTIC",
+                "GER",
+                "NER",
+                "KVP"
+            ]
+        }
+    ]
+}

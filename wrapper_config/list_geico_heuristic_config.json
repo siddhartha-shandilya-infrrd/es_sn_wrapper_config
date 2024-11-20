@@ -1,0 +1,228 @@
+{
+    "total_columns": 3,
+    "fields_config": [
+        {
+            "lookahead": " {3}",
+            "lookahead_escape": false,
+            "fieldName": "POLICY NUMBER",
+            "allowed_chars": "[0-9]",
+            "col_num": 1,
+            "length": "variable",
+            "is_address": false,
+            "lookaround_list": [],
+            "flow": "TB",
+            "num_lines": "1"
+        },
+        {
+            "lookahead": "\\s*\\n",
+            "lookahead_escape": false,
+            "fieldName": "INSURER",
+            "allowed_chars": "[a-zA-Z0-9 ]",
+            "col_num": 3,
+            "length": "variable",
+            "is_address": false,
+            "lookaround_list": [],
+            "flow": "TB",
+            "num_lines": "1",
+            "starts_with": "(GEICO|Government)"
+        },
+        {
+            "lookahead": "",
+            "lookahead_escape": false,
+            "fieldName": "EFF",
+            "allowed_chars": "[-0-9/]",
+            "col_num": 1,
+            "length": "variable",
+            "is_address": false,
+            "lookaround_list": [],
+            "flow": "LR",
+            "num_lines": "1"
+        },
+        {
+            "lookahead": "",
+            "lookahead_escape": false,
+            "fieldName": "EXP",
+            "allowed_chars": "[-0-9/]",
+            "col_num": 1,
+            "length": "variable",
+            "is_address": false,
+            "lookaround_list": [],
+            "flow": "LR",
+            "num_lines": "1"
+        },
+        {
+            "lookahead": "\\s*\\n| {3}|\\s*[^0-9/\\-]",
+            "lookahead_escape": false,
+            "fieldName": "PROCESS DATE",
+            "allowed_chars": "[-0-9/]",
+            "col_num": 3,
+            "length": "variable",
+            "is_address": false,
+            "lookaround_list": [],
+            "flow": "LR",
+            "num_lines": "1"
+        },
+        {
+            "lookahead": "(.*Year\\s*:?|\\s*\\d+)",
+            "lookahead_escape": false,
+            "fieldName": "VIN",
+            "allowed_chars": "[A-Z0-9]",
+            "col_num": 3,
+            "length": "17",
+            "is_address": false,
+            "lookaround_list": [],
+            "flow": "LR",
+            "num_lines": "1"
+        },
+        {
+            "lookahead": ".*Make:?",
+            "lookahead_escape": false,
+            "fieldName": "Year",
+            "allowed_chars": "[0-9]",
+            "col_num": 3,
+            "length": "4",
+            "is_address": false,
+            "lookaround_list": [],
+            "flow": "LR",
+            "num_lines": "1"
+        },
+        {
+            "lookahead": " {3}|\\s*\\n",
+            "lookahead_escape": false,
+            "fieldName": "COLL",
+            "allowed_chars": "[-0-9A-Za-z/]",
+            "col_num": 3,
+            "length": "variable",
+            "is_address": false,
+            "lookaround_list": [],
+            "flow": "LR",
+            "num_lines": "1"
+        },
+        {
+            "lookahead": " {3}|\\s*\\n",
+            "lookahead_escape": false,
+            "fieldName": "COMP",
+            "allowed_chars": "[-0-9A-Za-z/]",
+            "col_num": 3,
+            "length": "variable",
+            "is_address": false,
+            "lookaround_list": [],
+            "flow": "LR",
+            "num_lines": "1"
+        },
+        {
+            "lookahead": " {3}|\\s*\\n",
+            "lookahead_escape": false,
+            "fieldName": "PD",
+            "allowed_chars": "[0-9A-Za-z/]",
+            "col_num": 3,
+            "length": "variable",
+            "is_address": false,
+            "lookaround_list": [],
+            "flow": "LR",
+            "num_lines": "1"
+        },
+        {
+            "lookahead": "\\s*PD",
+            "lookahead_escape": false,
+            "fieldName": "BI",
+            "allowed_chars": "[0-9A-Za-z/]",
+            "col_num": 3,
+            "length": "variable",
+            "is_address": false,
+            "lookaround_list": [],
+            "flow": "LR",
+            "num_lines": "1"
+        },
+        {
+            "lookahead": "",
+            "lookahead_escape": false,
+            "fieldName": "INSURED NAME/ADDRESS",
+            "allowed_chars": "[-0-9A-Za-z/, ]",
+            "col_num": 2,
+            "length": "variable",
+            "is_address": true,
+            "lookaround_list": [
+                [
+                    ".*\\n\\s*\\d+(?: \\d+)*",
+                    "\\s*\\n|\\s*Government|\\s*GEICO"
+                ],
+                [
+                    ".*\\n\\s*(?:.*?)(?= {3})\\s*",
+                    "\\s*\\n|\\s*PROCESS[\\s-]*?DATE\\s*"
+                ],
+                [
+                    ".*\\n(.*?I[MN]E[)}]?\\.?\\s*)",
+                    "\\s*\\n|\\s*\\b(?:VIN)\\b\\s*"
+                ],
+                [
+                    ".*\\n(.*?I[MN]E[)}]?\\.?\\s*)",
+                    "\\s{3}|\\s*\\n|\\s*COVERAGES"
+                ],
+                [
+                    ".*\\n[^A-Za-z ]*",
+                    "\\s*(?:COVERAGES){e<=2}|\\s*(?:COMP){e<=1}|\\s*\\n"
+                ]
+            ],
+            "flow": "TB",
+            "num_lines": "multiple"
+        },
+        {
+            "lookahead": "",
+            "lookahead_escape": false,
+            "fieldName": "LOSS PAYEE",
+            "allowed_chars": "[-0-9A-Za-z/,]",
+            "col_num": 1,
+            "length": "variable",
+            "is_address": true,
+            "lookaround_list": [
+                [
+                    ".*\\n\\s*",
+                    "\\n| {3}"
+                ],
+                [
+                    ".*\\n\\s*",
+                    "\\n| {3}"
+                ],
+                [
+                    ".*\\n\\s*",
+                    "\\n| {3}"
+                ],
+                [
+                    ".*\\n\\s*",
+                    "\\n| {3}"
+                ]
+            ],
+            "flow": "TB",
+            "num_lines": "multiple"
+        },
+        {
+            "lookahead": "\\n| {3}|\\s*[^A-Za-z /]",
+            "lookahead_escape": false,
+            "fieldName": "Make",
+            "allowed_chars": "[-0-9A-Za-z/ ]",
+            "col_num": 3,
+            "length": "variable",
+            "is_address": false,
+            "lookaround_list": [],
+            "flow": "LR/TB",
+            "num_lines": "multiple"
+        },
+        {
+            "fieldName": "CARRIER_ADDRESS_STREET",
+            "value": "P.O. Box 9094"
+        },
+        {
+            "fieldName": "CARRIER_ADDRESS_CITY",
+            "value": "Macon"
+        },
+        {
+            "fieldName": "CARRIER_ADDRESS_STATE",
+            "value": "GA"
+        },
+        {
+            "fieldName": "CARRIER_ADDRESS_ZIP_CODE",
+            "value": "31208-9094"
+        }
+    ]
+}

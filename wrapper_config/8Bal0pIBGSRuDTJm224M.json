@@ -1,0 +1,18 @@
+{
+    "GEREntity": "Date",
+    "docType": "DECLN",
+    "fieldName": "EXPIRATION_DATE",
+    "carrier": "GEICO",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "\\bExpiration\\s*Date(?::)?\\b"
+            ],
+            "direction": "STRICT_RIGHT",
+            "condition": "AND"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}

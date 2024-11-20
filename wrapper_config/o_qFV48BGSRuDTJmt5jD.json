@@ -1,0 +1,18 @@
+{
+    "GEREntity": "Address",
+    "docType": "COMMON",
+    "fieldName": "INSURED_ADDRESS_ZIP_CODE",
+    "carrier": "FIRST_ACCEPTANCE",
+    "pageNumber": 1,
+    "keywords": [
+        {
+            "pattern": [
+                "\\binsured[ ]{0,}information\\b"
+            ],
+            "direction": "STRICT_BOTTOM",
+            "condition": "AND"
+        }
+    ],
+    "negativeKeywords": [],
+    "pageBoundary": {}
+}
