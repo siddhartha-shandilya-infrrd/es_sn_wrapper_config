@@ -13,7 +13,7 @@
                 "policy\\speriod"
             ],
             "direction": "STRICT_RIGHT",
-            "condition": "OR"
+            "condition": "AND"
         }
     ],
     "negativeKeywords": [],

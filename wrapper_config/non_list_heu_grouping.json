@@ -183,6 +183,30 @@
             "inclusive": false
         }
     },
+    "decln-allstate-page1-vin-info-table_v3": {
+        "groupId": "decln-allstate-page1-vin-info-table_v3",
+        "page_num": "1",
+        "top_delims": {
+            "keywords": [
+                {
+                    "dotAll": false,
+                    "ignoreCase": false,
+                    "pattern_string": "Item\\s+VIN\\s+Limit\\s+of\\s+liability"
+                }
+            ],
+            "inclusive": false
+        },
+        "bottom_delims": {
+            "keywords": [
+                {
+                    "dotAll": false,
+                    "ignoreCase": false,
+                    "pattern_string": "Comprehensive"
+                }
+            ],
+            "inclusive": false
+        }
+    },
     "decln-erie-page1-policy-info": {
         "groupId": "decln-erie-page1-policy-info",
         "page_num": "1",
